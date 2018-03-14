@@ -19,6 +19,8 @@
 -   [raceText][15]
 -   [climateText][16]
 -   [barGraph][17]
+-   [barGraph2][18]
+-   [lineGraph][19]
 
 ## Introduction
 
@@ -34,21 +36,21 @@ This function compares a school value to the district and state values and outpu
 
 **Parameters**
 
--   `school` **[number][18]** the school data point
--   `district` **[number][18]** the district average data point
--   `state` **[number][18]** the state average data point
+-   `school` **[number][20]** the school data point
+-   `district` **[number][20]** the district average data point
+-   `state` **[number][20]** the state average data point
 
-Returns **[string][19]** the hex code for the bar graph color
+Returns **[string][21]** the hex code for the bar graph color
 
 ## colorArray
 
-This function recieves the bar graph array and outputs the color array. It calls @see [dataColor][2] to build the color array.
+This function recieves the bar graph array and outputs the color array. It calls [dataColor][2] to build the color array.
 
 **Parameters**
 
--   `matrix` **[array][20]** data array that will generate the bar graph
+-   `matrix` **[array][22]** data array that will generate the bar graph
 
-Returns **[array][20]** an array of color hex codes to color the bar graph
+Returns **[array][22]** an array of color hex codes to color the bar graph
 
 ## attColorArray
 
@@ -56,9 +58,9 @@ This function recieves the attendance bar graph array and outputs the color arra
 
 **Parameters**
 
--   `matrix` **[array][20]** data array that will generate the bar graph
+-   `matrix` **[array][22]** data array that will generate the bar graph
 
-Returns **[array][20]** an array of color hex codes to color the bar graph
+Returns **[array][22]** an array of color hex codes to color the bar graph
 
 ## btoColorArray
 
@@ -66,11 +68,11 @@ This function makes the color array for Beat the Odds by looking up the bto_stat
 
 **Parameters**
 
--   `array` **[array][20]** data array that will generate the bar graph
--   `year` **[number][18]** year of the BTO data
--   `dataset` **[array][20]** school profile source data
+-   `array` **[array][22]** data array that will generate the bar graph
+-   `year` **[number][20]** year of the BTO data
+-   `dataset` **[array][22]** school profile source data
 
-Returns **[array][20]** an array of color hex codes to color the bar graph
+Returns **[array][22]** an array of color hex codes to color the bar graph
 
 ## simpleColorArray
 
@@ -78,9 +80,9 @@ This function passes an all blue color array the same length as the data. This a
 
 **Parameters**
 
--   `array` **[array][20]** data array that will generate the bar graph
+-   `array` **[array][22]** data array that will generate the bar graph
 
-Returns **[array][20]** an array of color hex codes to color the bar graph
+Returns **[array][22]** an array of color hex codes to color the bar graph
 
 ## ccrpiText
 
@@ -88,11 +90,11 @@ This function writes the text next to the CCRPI graph.
 
 **Parameters**
 
--   `selectedSchoolName` **[string][19]** short version of school name
--   `selectedSchoolValue` **[number][18]** school ccrpi score
--   `selectedYear` **[string][19]** selected year
+-   `selectedSchoolName` **[string][21]** short version of school name
+-   `selectedSchoolValue` **[number][20]** school ccrpi score
+-   `selectedYear` **[string][21]** selected year
 
-Returns **[string][19]** Text next to the CCRPI graph
+Returns **[string][21]** Text next to the CCRPI graph
 
 ## milesText
 
@@ -100,12 +102,12 @@ This function writes the text next to the Milestones graph.
 
 **Parameters**
 
--   `selectedSchoolName` **[string][19]** short version of school name
--   `english` **[number][18]** the school's english proficiency rate
--   `math` **[number][18]** the school's math proficiency rate
--   `selectedYear` **[string][19]** selected year
+-   `selectedSchoolName` **[string][21]** short version of school name
+-   `english` **[number][20]** the school's english proficiency rate
+-   `math` **[number][20]** the school's math proficiency rate
+-   `selectedYear` **[string][21]** selected year
 
-Returns **[string][19]** Text next to the Milestones graph
+Returns **[string][21]** Text next to the Milestones graph
 
 ## sgpText
 
@@ -113,11 +115,11 @@ This function writes the text next to the student growth graph.
 
 **Parameters**
 
--   `selectedSchoolName` **[string][19]** short version of school name
--   `math` **[number][18]** the school's math SGP score
--   `selectedYear` **[string][19]** selected year
+-   `selectedSchoolName` **[string][21]** short version of school name
+-   `math` **[number][20]** the school's math SGP score
+-   `selectedYear` **[string][21]** selected year
 
-Returns **[string][19]** Text next to the Milestones graph
+Returns **[string][21]** Text next to the Milestones graph
 
 ## gradText
 
@@ -125,11 +127,11 @@ This function writes the text next to the graduation graph.
 
 **Parameters**
 
--   `selectedSchoolName` **[string][19]** short version of school name
--   `gradrate` **[number][18]** the school's graduation rate
--   `selectedYear` **[string][19]** selected year
+-   `selectedSchoolName` **[string][21]** short version of school name
+-   `gradrate` **[number][20]** the school's graduation rate
+-   `selectedYear` **[string][21]** selected year
 
-Returns **[string][19]** Text next to the Milestones graph
+Returns **[string][21]** Text next to the Milestones graph
 
 ## btoText
 
@@ -137,11 +139,11 @@ This function writes the text next to the beat the odds graph.
 
 **Parameters**
 
--   `selectedSchoolName` **[string][19]** short version of school name
--   `score` **[number][18]** the school's beat the odds score
--   `selectedYear` **[string][19]** selected year
+-   `selectedSchoolName` **[string][21]** short version of school name
+-   `score` **[number][20]** the school's beat the odds score
+-   `selectedYear` **[string][21]** selected year
 
-Returns **[string][19]** Text next to the BTO graph
+Returns **[string][21]** Text next to the BTO graph
 
 ## attText
 
@@ -149,11 +151,11 @@ This function writes the text next to the attendance graph.
 
 **Parameters**
 
--   `selectedSchoolName` **[string][19]** short version of school name
--   `score` **[number][18]** the school's attendance rate
--   `selectedYear` **[string][19]** selected year
+-   `selectedSchoolName` **[string][21]** short version of school name
+-   `score` **[number][20]** the school's attendance rate
+-   `selectedYear` **[string][21]** selected year
 
-Returns **[string][19]** Text next to the attendance graph
+Returns **[string][21]** Text next to the attendance graph
 
 ## enrollText
 
@@ -161,10 +163,10 @@ This function writes the text next to the enrollment graph. It uses the global v
 
 **Parameters**
 
--   `dataMatrix` **[array][20]** source data fro school profile
--   `yearMatrix` **[array][20]** list of years with enrollment data
+-   `dataMatrix` **[array][22]** source data fro school profile
+-   `yearMatrix` **[array][22]** list of years with enrollment data
 
-Returns **[string][19]** Text next to the enrollment graph
+Returns **[string][21]** Text next to the enrollment graph
 
 ## subgroupText
 
@@ -172,11 +174,11 @@ This function writes the text next to the subgroup graph. Unlike other text, it 
 
 **Parameters**
 
--   `subgroupDate` **[string][19]** the year that the subgroup data is from
--   `mobilityDate` **[number][18]** the year that the mobility data is from
--   `directCertDate` **[string][19]** the year that the direct cert data is from
+-   `subgroupDate` **[string][21]** the year that the subgroup data is from
+-   `mobilityDate` **[number][20]** the year that the mobility data is from
+-   `directCertDate` **[string][21]** the year that the direct cert data is from
 
-Returns **[string][19]** Text next to the subgroup graph
+Returns **[string][21]** Text next to the subgroup graph
 
 ## raceText
 
@@ -184,11 +186,11 @@ This function writes the text next to the race graph.
 
 **Parameters**
 
--   `school` **[string][19]** school name
--   `compareSchool` **[string][19]** compare school name
--   `tempYear` **[string][19]** selected year
+-   `school` **[string][21]** school name
+-   `compareSchool` **[string][21]** compare school name
+-   `tempYear` **[string][21]** selected year
 
-Returns **[string][19]** Text next to the climate graph
+Returns **[string][21]** Text next to the climate graph
 
 ## climateText
 
@@ -196,11 +198,11 @@ This function writes the text next to the climate graph.
 
 **Parameters**
 
--   `school` **[string][19]** school name
--   `score` **[number][18]** school's result on "I feel safe at school" question
--   `tempYear` **[string][19]** selected year
+-   `school` **[string][21]** school name
+-   `score` **[number][20]** school's result on "I feel safe at school" question
+-   `tempYear` **[string][21]** selected year
 
-Returns **[string][19]** Text next to the climate graph
+Returns **[string][21]** Text next to the climate graph
 
 ## barGraph
 
@@ -208,12 +210,39 @@ This function generates a bar graph using c3.js.
 
 **Parameters**
 
--   `dataArray` **[array][20]** Array formatted for cs.js graph function. This is usually generated by the function arrayValues. First line is school names, second line is values corresponding to school names.
--   `colors` **[array][20]** List of hex colors for bar graph. Usually generated by [colorArray][3] or a similar function.
--   `labelFormat` **[string][19]** d3.js label format. Usually '.0%' or '.1f' (i.e a percentage with zero decimals, or a regular number with one decimal.)
--   `divID` **[string][19]** name of the div ID where the graph should go.
+-   `dataArray` **[array][22]** Array formatted for cs.js graph function. This is usually generated by the function arrayValues. First line is school names, second line is values corresponding to school names.
+-   `colors` **[array][22]** List of hex colors for bar graph. Usually generated by [colorArray][3] or a similar function.
+-   `labelFormat` **[string][21]** d3.js label format. Usually '.0%' or '.1f' (i.e a percentage with zero decimals, or a regular number with one decimal.)
+-   `divID` **[string][21]** name of the div ID where the graph should go.
 
-Returns **[object][21]** A bar graph attached to the selected div ID.
+Returns **[object][23]** A bar graph attached to the selected div ID.
+
+## barGraph2
+
+This function generates a bar graph using c3.js. Unlike [barGraph][17] it does not color-code the bars. This is used for the Student Population section.
+
+**Parameters**
+
+-   `dataArray` **[array][22]** Array formatted for cs.js graph function. This is generated by the function [raceArrayValues][24]. First line is school names, second line is values corresponding to school names.
+-   `labelFormat` **[string][21]** d3.js label format. Usually '.0%' or '.1f' (i.e a percentage with zero decimals, or a regular number with one decimal.)
+-   `divID` **[string][21]** name of the div ID where the graph should go.
+
+Returns **[object][23]** A bar graph attached to the selected div ID.
+
+## lineGraph
+
+This function generates a line graph using c3.js.
+
+**Parameters**
+
+-   `dataArray` **[array][22]** Array formatted for cs.js graph function. This is generated by the function [lineData][25]. Each row is a school name and then a list of values by year.
+-   `yearArray` **[array][22]** List of years for the line graph. This is generated by the function [yearData][26].
+-   `lineColor` **[array][22]** Array of hex colors for line graph. This is generated by the function [lineColorArray][27].
+-   `title` **[string][21]** Title at the top of the graph.
+-   `divName`  
+-   `divID` **[string][21]** name of the div ID where the graph should go.
+
+Returns **[object][23]** A line graph attached to the selected div ID.
 
 [1]: #introduction
 
@@ -249,10 +278,22 @@ Returns **[object][21]** A bar graph attached to the selected div ID.
 
 [17]: #bargraph
 
-[18]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number
+[18]: #bargraph2
 
-[19]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String
+[19]: #linegraph
 
-[20]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array
+[20]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number
 
-[21]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object
+[21]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String
+
+[22]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array
+
+[23]: https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object
+
+[24]: raceArrayValues
+
+[25]: lineData
+
+[26]: yearData
+
+[27]: lineColorArray
