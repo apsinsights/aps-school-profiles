@@ -1,8 +1,9 @@
-/**
-* @name Introduction
-* @file Function list for code to generate School Profiles on APS Insights.
-* @author John Keltz
-*/
+		
+	 /**
+	 * @name Introduction
+     * @file Function list for code to generate School Profiles on APS Insights.
+     * @author John Keltz
+	 */
 	
 	/*javascript outline
 	
@@ -1290,12 +1291,10 @@
 		setTimeout(function(){
 			
 			//load school messages. how can we re-write so we don't load message again if grade level filter changes?
-			d3.csv("https://github.com/johnkeltz/aps-school-profiles/blob/master/resources/school%20messages.csv", function(error, messages){
+			d3.csv("https://apsinsights.org/documents/2018/03/school-messages.csv", function(error, messages){
 				
 				//load data. how can we re-write so we don't load data again if grade level filter changes?
-				d3.csv("https://github.com/johnkeltz/aps-school-profiles/blob/master/resources/school%20data.csv", function(error, schoolData) {
-					
-					console.log(schoolData)
+				d3.csv("https://apsinsights.org/documents/2018/03/school-profile-data.csv", function(error, schoolData) {
 					
 					var data = [];
 					data.push(schoolData[0]); //push "select a school" row
