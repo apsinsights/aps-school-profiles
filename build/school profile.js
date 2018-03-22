@@ -1296,6 +1296,8 @@
 				//load data. how can we re-write so we don't load data again if grade level filter changes?
 				d3.csv("https://github.com/johnkeltz/aps-school-profiles/blob/master/resources/school%20data.csv", function(error, schoolData) {
 					
+					console.log(schoolData)
+					
 					var data = [];
 					data.push(schoolData[0]); //push "select a school" row
 					for(var i = 1; i < schoolData.length; i++) {
