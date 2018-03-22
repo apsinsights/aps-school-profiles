@@ -1,1 +1,651 @@
-
+schoolnumber,school,schoolname,year,grade_cluster,ccrpi_score,ela,math,ela_sgp,math_sgp,bto_score,bto_status,attend,grad_rate,enrollment,black,white,hispanic,two_or_more,asian,american_indian,pacific_islander,lep,swd,direct_cert,mobility,like_school,safe_school,sortvalue
+,,Select a School,2018,,,,,,,,,,,,,,,,,,,,,,,,,1
+2664,Crim,Alonzo Crim Open Campus,2014,High,42.2,,,0.66,0.48,-2.1,Average,,0.06,266,,,,,,,,,,,,0.61,,2
+2664,Crim,Alonzo Crim Open Campus,2015,High,36.9,0.02,0,0.54,0.43,-12.9,Below,0.12,0.127,298,,,,,,,,,,,,0.79,0.69,2
+2664,Crim,Alonzo Crim Open Campus,2016,High,31.8,0.07,,0.35,,-15.7,Below,0.14,0.082,180,,,,,,,,,,,,0.71,0.71,2
+2664,Crim,Alonzo Crim Open Campus,2017,High,55.7,0.15,0,0.73,,3.7,Above,0.15,0.121,133,,,,,,,,0.02,0.04,0.62,1.27,0.74,0.85,2
+2664,Crim,Alonzo Crim Open Campus,2018,High,,,,,,,,,,125,0.98,,0.02,,,,,,,,,,,2
+2664,Crim,Alonzo Crim Open Campus,3 Year Avg,High,41.4,,,0.55,0.26,-8.3,Below,,,,,,,,,,,,,,,,,2
+2,Atlanta,Atlanta,2014,Elementary,62.4,,,0.6,0.58,,,,,,,,,,,,,,,,,0.67,0.79,2
+2,Atlanta,Atlanta,2014,Middle,65.8,,,0.61,0.61,,,,,,,,,,,,,,,,,0.84,,2
+2,Atlanta,Atlanta,2014,High,59.1,,,0.64,0.64,,,,0.591,,,,,,,,,,,,,0.76,,2
+2,Atlanta,Atlanta,2015,High,66.1,0.3,0.23,0.72,0.62,,,0.36,0.715,,,,,,,,,,,,,0.76,0.72,2
+2,Atlanta,Atlanta,2015,Elementary,67.9,0.34,0.31,0.7,0.64,,,0.54,,,,,,,,,,,,,,0.72,0.76,2
+2,Atlanta,Atlanta,2015,Middle,64.5,0.3,0.25,0.67,0.63,,,0.54,,,,,,,,,,,,,,0.83,0.75,2
+2,Atlanta,Atlanta,2016,Elementary,65.6,0.33,0.32,0.64,0.61,,,0.55,,,,,,,,,,,,,,0.73,0.76,2
+2,Atlanta,Atlanta,2016,High,63.3,0.29,0.19,0.56,0.57,,,0.33,0.711,,,,,,,,,,,,,0.76,0.74,2
+2,Atlanta,Atlanta,2016,Middle,61.5,0.32,0.25,0.63,0.55,,,0.53,,,,,,,,,,,,,,0.82,0.76,2
+2,Atlanta,Atlanta,2017,High,68.7,0.36,0.17,0.63,0.62,,,0.34,0.77,,,,,,,,,,,,,0.76,0.8,2
+2,Atlanta,Atlanta,2017,Middle,62.5,0.31,0.27,0.62,0.62,,,0.52,,,,,,,,,,,,,,0.81,0.77,2
+2,Atlanta,Atlanta,2017,Elementary,68.6,0.33,0.33,0.61,0.67,,,0.54,,,,,,,,,,,,,,0.68,0.75,2
+2,Atlanta,Atlanta,2018,Middle,,,,,,,,,,,,,,,,,,,,,,,,2
+2,Atlanta,Atlanta,2018,High,,,,,,,,,,,,,,,,,,,,,,,,2
+2,Atlanta,Atlanta,2018,Elementary,,,,,,,,,,,,,,,,,,,,,,,,2
+2,Atlanta,Atlanta,3 Year Avg,High,66,,,0.63,0.6,,,,,,,,,,,,,,,,,,,2
+2,Atlanta,Atlanta,3 Year Avg,Elementary,67.3,,,0.65,0.64,,,,,,,,,,,,,,,,,,,2
+2,Atlanta,Atlanta,3 Year Avg,Middle,62.8,,,0.64,0.6,,,,,,,,,,,,,,,,,,,2
+415,Classical,Atlanta Classical Academy,2015,Elementary,61.4,0.64,0.51,0.49,0.39,-20.9,Below,0.51,,325,,,,,,,,,,,,0.92,0.9,2
+415,Classical,Atlanta Classical Academy,2015,Middle,58.2,0.71,0.56,0.7,0.51,-20.9,Below,0.57,,161,,,,,,,,,,,,0.77,0.77,2
+415,Classical,Atlanta Classical Academy,2016,Elementary,71.4,0.65,0.51,0.59,0.62,-7.4,Below,0.83,,326,,,,,,,,,,,,0.73,0.9,2
+415,Classical,Atlanta Classical Academy,2016,High,85.7,0.84,0.67,0.66,0.53,-7.4,Below,0.84,,50,,,,,,,,,,,,0.67,0.71,2
+415,Classical,Atlanta Classical Academy,2016,Middle,60.6,0.72,0.46,0.61,0.42,-7.4,Below,0.84,,161,,,,,,,,,,,,0.83,0.83,2
+415,Classical,Atlanta Classical Academy,2017,High,72.8,0.79,0.32,0.62,0.49,-3.8,Average,0.99,,101,,,,,,,,0.04,0.03,0.05,0.03,0.8,0.88,2
+415,Classical,Atlanta Classical Academy,2017,Elementary,74.2,0.62,0.48,0.55,0.51,-3.8,Average,0.77,,329,,,,,,,,0.04,0.03,0.05,0.03,0.67,0.88,2
+415,Classical,Atlanta Classical Academy,2017,Middle,79.9,0.66,0.45,0.63,0.69,-3.8,Average,0.92,,162,,,,,,,,0.04,0.03,0.05,0.03,0.69,0.85,2
+415,Classical,Atlanta Classical Academy,2018,High,,,,,,,,,,133,0.26,0.59,0.11,0.02,0.02,,,,,,,,,2
+415,Classical,Atlanta Classical Academy,2018,Middle,,,,,,,,,,162,0.07,0.77,0.13,0.01,0.02,,,,,,,,,2
+415,Classical,Atlanta Classical Academy,2018,Elementary,,,,,,,,,,329,0.08,0.76,0.09,0.03,0.03,,,,,,,,,2
+415,Classical,Atlanta Classical Academy,3 Year Avg,High,79.2,,,0.64,0.5,-10.7,Below,,,,,,,,,,,,,,,,,2
+415,Classical,Atlanta Classical Academy,3 Year Avg,Middle,66.2,,,0.65,0.53,-10.7,Below,,,,,,,,,,,,,,,,,2
+415,Classical,Atlanta Classical Academy,3 Year Avg,Elementary,69,,,0.55,0.51,-10.7,Below,,,,,,,,,,,,,,,,,2
+505,ANCS,Atlanta Neighborhood Charter Elementary,2014,Elementary,90.9,,,0.75,0.7,2.6,Above,,,432,,,,,,,,,,,,0.71,0.86,2
+505,ANCS,Atlanta Neighborhood Charter Elementary,2015,Elementary,87.1,0.6,0.49,0.76,0.76,1.1,Average,0.71,,432,,,,,,,,,,,,0.68,0.8,2
+505,ANCS,Atlanta Neighborhood Charter Elementary,2016,Elementary,84.5,0.59,0.52,0.69,0.76,-1.2,Below,0.67,,422,,,,,,,,,,,,0.72,0.87,2
+505,ANCS,Atlanta Neighborhood Charter Elementary,2017,Elementary,79.6,0.6,0.54,0.59,0.71,-5.4,Below,0.65,,409,,,,,,,,0.02,0.08,0.05,0,0.57,0.74,2
+505,ANCS,Atlanta Neighborhood Charter Elementary,2018,Elementary,,,,,,,,,,403,0.17,0.7,0.04,0.07,0.01,,,,,,,,,2
+505,ANCS,Atlanta Neighborhood Charter Elementary,3 Year Avg,Elementary,83.7,,,0.68,0.74,-1.8,Below,,,,,,,,,,,,,,,,,2
+206,ANCS,Atlanta Neighborhood Charter Middle,2014,Middle,80.9,,,0.63,0.56,-4.2,Below,,,234,,,,,,,,,,,,0.86,,2
+206,ANCS,Atlanta Neighborhood Charter Middle,2015,Middle,72.7,0.64,0.44,0.68,0.66,-9.2,Below,0.62,,235,,,,,,,,,,,,0.81,0.86,2
+206,ANCS,Atlanta Neighborhood Charter Middle,2016,Middle,71.7,0.56,0.48,0.6,0.65,-6.3,Below,0.52,,237,,,,,,,,,,,,0.83,0.87,2
+206,ANCS,Atlanta Neighborhood Charter Middle,2017,Middle,78.1,0.6,0.49,0.62,0.65,-2,Below,0.63,,236,,,,,,,,0.02,0.15,0.11,0,0.85,0.9,2
+206,ANCS,Atlanta Neighborhood Charter Middle,2018,Middle,,,,,,,,,,234,0.21,0.62,0.06,0.1,,,,,,,,,,2
+206,ANCS,Atlanta Neighborhood Charter Middle,3 Year Avg,Middle,74.1,,,0.63,0.65,-5.8,Below,,,,,,,,,,,,,,,,,2
+1411,BEST,BEST Middle / High School Academy,2016,Middle,48.3,0.09,0.07,0.56,0.45,0.5,Average,0.41,,272,,,,,,,,,,,,0.81,0.69,2
+1411,BEST,BEST Middle / High School Academy,2016,High,58.1,0.14,0.07,0.61,0.54,0.5,Average,0.35,0.788,243,,,,,,,,,,,,0.74,0.7,2
+1411,BEST,BEST Middle / High School Academy,2017,Middle,60.5,0.11,0.12,0.59,0.71,8.5,Above,0.43,,192,,,,,,,,0,0.2,0.7,0.21,0.84,0.72,2
+1411,BEST,BEST Middle / High School Academy,2017,High,69.6,0.17,0.09,0.64,0.71,8.5,Above,0.3,0.727,223,,,,,,,,0,0.2,0.7,0.21,0.77,0.77,2
+1411,BEST,BEST Middle / High School Academy,2018,Middle,,,,,,,,,,157,0.96,,0.04,,,,,,,,,,,2
+1411,BEST,BEST Middle / High School Academy,2018,High,,,,,,,,,,236,0.99,,0.01,,,,,,,,,,,2
+1411,BEST,BEST Middle / High School Academy,3 Year Avg,Middle,54.4,,,0.57,0.57,4.5,Above,,,,,,,,,,,,,,,,,2
+1411,BEST,BEST Middle / High School Academy,3 Year Avg,High,63.8,,,0.63,0.63,4.5,Above,,,,,,,,,,,,,,,,,2
+118,BEST High,BEST Middle / High School Academy,2014,High,63.4,,,0.61,0.68,7.6,Above,,0.733,259,,,,,,,,,,,,0.77,,2
+118,BEST High,BEST Middle / High School Academy,2015,High,58.2,0.19,0.1,0.69,0.64,-2.3,Below,0.26,0.667,245,,,,,,,,,,,,0.74,0.7,2
+1408,BEST Middle,BEST Middle / High School Academy,2014,Middle,54.6,,,0.51,0.45,-5,Below,,,322,,,,,,,,,,,,0.87,,2
+1408,BEST Middle,BEST Middle / High School Academy,2015,Middle,51.8,0.09,0.07,0.57,0.5,-4.3,Below,0.61,,309,,,,,,,,,,,,0.75,0.67,2
+5066,BAMO,Barack and Michelle Obama Elementary School,2014,Elementary,38.7,,,0.45,0.24,-22.2,Below,,,252,,,,,,,,,,,,0.78,0.78,2
+5066,BAMO,Barack and Michelle Obama Elementary School,2015,Elementary,50.6,0.08,0.07,0.68,0.65,-7.6,Below,0.46,,249,,,,,,,,,,,,0.72,0.81,2
+5066,BAMO,Barack and Michelle Obama Elementary School,2016,Elementary,49.7,0.09,0.11,0.57,0.62,0.6,Average,0.47,,252,,,,,,,,,,,,0.69,0.66,2
+5066,BAMO,Barack and Michelle Obama Elementary School,2017,Elementary,57.7,0.11,0.16,0.62,0.63,4.5,Above,0.51,,265,,,,,,,,0,0.12,0.86,0.2,0.66,0.72,2
+5066,BAMO,Barack and Michelle Obama Elementary School,2018,Elementary,,,,,,,,,,259,0.99,,0.01,,,,,,,,,,,2
+5066,BAMO,Barack and Michelle Obama Elementary School,3 Year Avg,Elementary,52.6,,,0.62,0.63,-0.8,Average,,,,,,,,,,,,,,,,,2
+3051,Beecher,Beecher Hills Elementary School,2014,Elementary,63.3,,,0.51,0.68,-2.2,Below,,,369,,,,,,,,,,,,0.81,0.89,2
+3051,Beecher,Beecher Hills Elementary School,2015,Elementary,82.2,0.3,0.32,0.81,0.64,12.7,Above,0.63,,373,,,,,,,,,,,,0.72,0.71,2
+3051,Beecher,Beecher Hills Elementary School,2016,Elementary,61.8,0.31,0.3,0.69,0.49,-0.7,Average,0.66,,328,,,,,,,,,,,,0.75,0.74,2
+3051,Beecher,Beecher Hills Elementary School,2017,Elementary,79.7,0.35,0.33,0.83,0.8,14.8,Above,0.68,,358,,,,,,,,0.01,0.12,0.59,0.2,0.73,0.7,2
+3051,Beecher,Beecher Hills Elementary School,2018,Elementary,,,,,,,,,,346,0.98,0.01,0.01,0.01,,,,,,,,,,2
+3051,Beecher,Beecher Hills Elementary School,3 Year Avg,Elementary,74.5,,,0.78,0.65,8.9,Above,,,,,,,,,,,,,,,,,2
+5051,Benteen,Benteen Elementary School,2014,Elementary,48,,,0.59,0.57,-14.1,Below,,,276,,,,,,,,,,,,0.41,0.68,2
+5051,Benteen,Benteen Elementary School,2015,Elementary,65.5,0.09,0.1,0.81,0.56,5.5,Above,0.58,,304,,,,,,,,,,,,0.71,0.73,2
+5051,Benteen,Benteen Elementary School,2016,Elementary,56.9,0.13,0.14,0.65,0.58,3,Above,0.62,,313,,,,,,,,,,,,0.79,0.79,2
+5051,Benteen,Benteen Elementary School,2017,Elementary,57.6,0.11,0.14,0.57,0.66,-1.3,Average,0.66,,310,,,,,,,,0.35,0.11,0.61,0.27,0.73,0.67,2
+5051,Benteen,Benteen Elementary School,2018,Elementary,,,,,,,,,,288,0.63,,0.36,,,,,,,,,,,2
+5051,Benteen,Benteen Elementary School,3 Year Avg,Elementary,60,,,0.66,0.6,2.4,Above,,,,,,,,,,,,,,,,,2
+303,Bolton,Bolton Academy Elementary School,2014,Elementary,69.4,,,0.59,0.69,-1,Below,,,675,,,,,,,,,,,,,,2
+303,Bolton,Bolton Academy Elementary School,2015,Elementary,64.4,0.35,0.31,0.74,0.67,-3.8,Below,0.6,,618,,,,,,,,,,,,0.75,0.82,2
+303,Bolton,Bolton Academy Elementary School,2016,Elementary,64.8,0.36,0.32,0.55,0.61,-5.3,Below,0.62,,570,,,,,,,,,,,,0.7,0.78,2
+303,Bolton,Bolton Academy Elementary School,2017,Elementary,61.9,0.33,0.32,0.48,0.63,-9.5,Below,0.56,,563,,,,,,,,0.34,0.07,0.34,0.13,0.75,0.82,2
+303,Bolton,Bolton Academy Elementary School,2018,Elementary,,,,,,,,,,599,0.38,0.23,0.33,0.04,0.01,0.01,,,,,,,,2
+303,Bolton,Bolton Academy Elementary School,3 Year Avg,Elementary,63.7,,,0.59,0.64,-6.2,Below,,,,,,,,,,,,,,,,,2
+1053,Boyd,Boyd Elementary School,2014,Elementary,48.3,,,0.56,0.54,-10.4,Below,,,488,,,,,,,,,,,,,,2
+1053,Boyd,Boyd Elementary School,2015,Elementary,43.2,0.06,0.04,0.62,0.51,-14.6,Below,0.41,,505,,,,,,,,,,,,0.73,0.68,2
+1053,Boyd,Boyd Elementary School,2016,Elementary,45.2,0.08,0.04,0.52,0.48,-4.2,Below,0.37,,502,,,,,,,,,,,,0.7,0.63,2
+1053,Boyd,Boyd Elementary School,2017,Elementary,56.3,0.1,0.04,0.63,0.63,2.7,Above,0.36,,468,,,,,,,,0.01,0.08,0.84,0.31,0.72,0.71,2
+1053,Boyd,Boyd Elementary School,2018,Elementary,,,,,,,,,,483,0.97,,0.02,,,,,,,,,,,2
+1053,Boyd,Boyd Elementary School,3 Year Avg,Elementary,48.2,,,0.59,0.54,-5.4,Below,,,,,,,,,,,,,,,,,2
+2053,Brandon,Brandon Elementary School,2014,Elementary,92,,,0.7,0.65,3.1,Above,,,1137,,,,,,,,,,,,,,2
+2053,Brandon,Brandon Elementary School,2015,Elementary,93.5,0.82,0.72,0.77,0.79,8,Above,0.65,,1057,,,,,,,,,,,,0.74,0.9,2
+2053,Brandon,Brandon Elementary School,2016,Elementary,97,0.81,0.72,0.76,0.77,8.5,Above,0.66,,1049,,,,,,,,,,,,0.73,0.9,2
+2053,Brandon,Brandon Elementary School,2017,Elementary,98.8,0.78,0.78,0.67,0.82,9.8,Above,0.67,,1011,,,,,,,,0.04,0.07,0.04,0.07,0.7,0.84,2
+2053,Brandon,Brandon Elementary School,2018,Elementary,,,,,,,,,,1017,0.16,0.69,0.07,0.04,0.04,0.01,,,,,,,,2
+2053,Brandon,Brandon Elementary School,3 Year Avg,Elementary,96.4,,,0.74,0.79,8.8,Above,,,,,,,,,,,,,,,,,2
+100,Brown,Brown Middle School,2014,Middle,65.3,,,0.59,0.6,7.3,Above,,,700,,,,,,,,,,,,0.85,,2
+100,Brown,Brown Middle School,2015,Middle,56.2,0.11,0.09,0.63,0.56,0.7,Average,0.6,,685,,,,,,,,,,,,0.86,0.64,2
+100,Brown,Brown Middle School,2016,Middle,58.9,0.1,0.09,0.6,0.51,9.8,Above,0.49,,550,,,,,,,,,,,,0.85,0.7,2
+100,Brown,Brown Middle School,2017,Middle,53,0.09,0.07,0.57,0.55,-0.5,Average,0.49,,598,,,,,,,,0.01,0.15,0.76,0.42,0.89,0.78,2
+100,Brown,Brown Middle School,2018,Middle,,,,,,,,,,554,0.98,,0.02,,,,,,,,,,,2
+100,Brown,Brown Middle School,3 Year Avg,Middle,56,,,0.6,0.54,3.3,Above,,,,,,,,,,,,,,,,,2
+180,Bunche,Bunche Middle School,2014,Middle,60.3,,,0.62,0.59,1.3,Average,,,703,,,,,,,,,,,,0.85,,2
+180,Bunche,Bunche Middle School,2015,Middle,56.3,0.17,0.1,0.65,0.51,-0.8,Average,0.4,,771,,,,,,,,,,,,0.87,0.74,2
+180,Bunche,Bunche Middle School,2016,Middle,57,0.17,0.09,0.61,0.48,3.3,Above,0.38,,762,,,,,,,,,,,,0.82,0.81,2
+180,Bunche,Bunche Middle School,2017,Middle,54.6,0.17,0.12,0.55,0.52,-2.6,Below,0.53,,872,,,,,,,,0.01,0.11,0.66,0.36,0.84,0.81,2
+180,Bunche,Bunche Middle School,2018,Middle,,,,,,,,,,858,0.98,,0.02,,,,,,,,,,,2
+180,Bunche,Bunche Middle School,3 Year Avg,Middle,55.9,,,0.6,0.5,-0.1,Average,,,,,,,,,,,,,,,,,2
+305,Burgess,Burgess-Peterson Elementary School,2014,Elementary,78.4,,,0.68,0.67,10.2,Above,,,348,,,,,,,,,,,,0.67,0.88,2
+305,Burgess,Burgess-Peterson Elementary School,2015,Elementary,74.3,0.31,0.3,0.73,0.73,12.2,Above,0.63,,361,,,,,,,,,,,,0.79,0.76,2
+305,Burgess,Burgess-Peterson Elementary School,2016,Elementary,80.5,0.31,0.42,0.62,0.79,10.1,Above,0.7,,356,,,,,,,,,,,,0.66,0.69,2
+305,Burgess,Burgess-Peterson Elementary School,2017,Elementary,82.1,0.48,0.47,0.63,0.76,8,Above,0.7,,388,,,,,,,,0,0.11,0.37,0.15,0.72,0.84,2
+305,Burgess,Burgess-Peterson Elementary School,2018,Elementary,,,,,,,,,,474,0.74,0.19,0.02,0.05,,,,,,,,,,2
+305,Burgess,Burgess-Peterson Elementary School,3 Year Avg,Elementary,78.9,,,0.65,0.76,10.1,Above,,,,,,,,,,,,,,,,,2
+106,Carver Early,Carver Early College,2014,High,94.3,,,0.51,0.81,26.7,Above,,1,347,,,,,,,,,,,,0.8,,2
+106,Carver Early,Carver Early College,2015,High,101.7,0.58,0.65,0.78,0.9,26.9,Above,0.65,0.986,321,,,,,,,,,,,,0.86,0.81,2
+106,Carver Early,Carver Early College,2016,High,97.3,0.49,0.72,0.57,0.89,25.7,Above,0.69,0.987,303,,,,,,,,,,,,0.8,0.81,2
+106,Carver Early,Carver Early College,2017,High,91.9,0.34,0.42,0.64,0.75,19.5,Above,0.49,0.988,369,,,,,,,,0.01,0.04,0.57,0.16,0.83,0.89,2
+106,Carver Early,Carver Early College,2018,High,,,,,,,,,,420,0.95,,0.04,0.01,,,,,,,,,,2
+106,Carver Early,Carver Early College,3 Year Avg,High,96.9,,,0.67,0.85,24,Above,,,,,,,,,,,,,,,,,2
+1413,Carver,Carver High School,2017,High,52.4,0.06,0.02,0.51,0.54,-3.4,Below,0.21,0.739,646,,,,,,,,0.01,0.17,0.72,0.35,0.81,0.75,2
+1413,Carver,Carver High School,2018,High,,,,,,,,,,588,0.98,,0.02,,,,,,,,,,,2
+1413,Carver,Carver High School,3 Year Avg,High,52.4,,,0.51,0.54,-3.4,Below,,,,,,,,,,,,,,,,,2
+506,Carver Arts,Carver High School,2014,High,72.1,,,0.63,0.77,13.1,Above,,0.745,402,,,,,,,,,,,,0.84,,2
+506,Carver Arts,Carver High School,2015,High,61.2,0.1,0.03,0.7,0.58,0.8,Average,0.3,0.727,380,,,,,,,,,,,,0.76,0.54,2
+506,Carver Arts,Carver High School,2016,High,51.3,0.07,0.01,0.5,0.42,0.2,Average,0.23,0.641,417,,,,,,,,,,,,0.83,0.67,2
+406,Carver Health,Carver High School,2014,High,58.3,,,0.73,0.68,4.7,Above,,0.612,381,,,,,,,,,,,,0.78,,2
+406,Carver Health,Carver High School,2015,High,61,0.1,0.04,0.77,0.52,-0.8,Average,0.33,0.68,330,,,,,,,,,,,,0.77,0.51,2
+406,Carver Health,Carver High School,2016,High,48.2,0.05,0.01,0.49,0.38,-4.9,Below,0.25,0.691,274,,,,,,,,,,,,0.79,0.73,2
+306,Carver Tech,Carver School of Technology,2014,High,48.9,,,0.61,0.55,-2.5,Below,,0.474,353,,,,,,,,,,,,0.81,,2
+306,Carver Tech,Carver School of Technology,2015,High,43,0.02,0.04,0.56,0.52,-14.4,Below,0.25,0.646,305,,,,,,,,,,,,0.77,0.71,2
+306,Carver Tech,Carver School of Technology,2016,High,56.5,0.06,0.11,0.58,0.7,3.9,Above,0.28,0.63,292,,,,,,,,,,,,0.76,0.76,2
+306,Carver Tech,Carver School of Technology,2017,High,53.6,0.09,,0.32,,-7,Below,0.31,0.797,110,,,,,,,,0.01,0.22,0.66,0.19,0.8,0.78,2
+306,Carver Tech,Carver School of Technology,2018,High,,,,,,,,,,40,1,,,,,,,,,,,,,2
+306,Carver Tech,Carver School of Technology,3 Year Avg,High,51,,,0.55,0.58,-5.8,Below,,,,,,,,,,,,,,,,,2
+196,Cascade,Cascade Elementary School,2014,Elementary,66.5,,,0.69,0.83,7.2,Above,,,439,,,,,,,,,,,,0.78,0.84,2
+196,Cascade,Cascade Elementary School,2015,Elementary,57,0.16,0.19,0.68,0.64,1.8,Above,0.54,,459,,,,,,,,,,,,0.73,0.76,2
+196,Cascade,Cascade Elementary School,2016,Elementary,57.8,0.18,0.19,0.62,0.66,9.3,Above,0.55,,457,,,,,,,,,,,,0.69,0.73,2
+196,Cascade,Cascade Elementary School,2017,Elementary,65.2,0.19,0.22,0.65,0.72,8.9,Above,0.52,,450,,,,,,,,0.05,0.13,0.73,0.36,0.56,0.66,2
+196,Cascade,Cascade Elementary School,2018,Elementary,,,,,,,,,,426,0.99,,,,,,,,,,,,,2
+196,Cascade,Cascade Elementary School,3 Year Avg,Elementary,60,,,0.65,0.68,6.7,Above,,,,,,,,,,,,,,,,,2
+199,Centennial,Centennial Academy,2014,Elementary,69.5,,,0.64,0.46,3.1,Above,,,514,,,,,,,,,,,,,,2
+199,Centennial,Centennial Academy,2015,Middle,61,0.32,0.19,0.57,0.74,-4.7,Below,0.77,,77,,,,,,,,,,,,0.79,0.63,2
+199,Centennial,Centennial Academy,2015,Elementary,54.9,0.32,0.19,0.67,0.39,-4.7,Below,0.52,,557,,,,,,,,,,,,0.64,0.74,2
+199,Centennial,Centennial Academy,2016,Middle,81.7,0.41,0.35,0.67,0.85,-0.2,Average,0.54,,137,,,,,,,,,,,,0.82,0.82,2
+199,Centennial,Centennial Academy,2016,Elementary,56.4,0.25,0.24,0.53,0.67,-0.2,Average,0.53,,613,,,,,,,,,,,,0.66,0.73,2
+199,Centennial,Centennial Academy,2017,Elementary,82.7,0.35,0.34,0.77,0.83,11.5,Above,0.45,,569,,,,,,,,0.04,0.06,0.43,0.2,0.64,0.77,2
+199,Centennial,Centennial Academy,2017,Middle,80.8,0.39,0.35,0.79,0.67,11.5,Above,0.71,,196,,,,,,,,0.04,0.06,0.43,0.2,0.71,0.72,2
+199,Centennial,Centennial Academy,2018,Elementary,,,,,,,,,,605,0.86,0.03,0.04,0.05,0.02,,,,,,,,,2
+199,Centennial,Centennial Academy,2018,Middle,,,,,,,,,,242,0.9,0.02,0.02,0.04,0.01,,,,,,,,,2
+199,Centennial,Centennial Academy,3 Year Avg,Elementary,64.6,,,0.65,0.63,2.2,Above,,,,,,,,,,,,,,,,,2
+199,Centennial,Centennial Academy,3 Year Avg,Middle,74.5,,,0.71,0.74,2.2,Above,,,,,,,,,,,,,,,,,2
+4056,Cleveland,Cleveland Avenue Elementary School,2014,Elementary,67.6,,,0.79,0.84,6.5,Above,,,364,,,,,,,,,,,,0.73,0.57,2
+4056,Cleveland,Cleveland Avenue Elementary School,2015,Elementary,72.2,0.18,0.3,0.67,0.83,10.1,Above,0.5,,365,,,,,,,,,,,,0.74,0.7,2
+4056,Cleveland,Cleveland Avenue Elementary School,2016,Elementary,80.8,0.21,0.3,0.72,0.77,18.1,Above,0.54,,341,,,,,,,,,,,,0.64,0.58,2
+4056,Cleveland,Cleveland Avenue Elementary School,2017,Elementary,76,0.18,0.23,0.71,0.75,15.4,Above,0.53,,374,,,,,,,,0.07,0.13,0.69,0.36,0.68,0.62,2
+4056,Cleveland,Cleveland Avenue Elementary School,2018,Elementary,,,,,,,,,,344,0.91,,0.07,0.02,,,,,,,,,,2
+4056,Cleveland,Cleveland Avenue Elementary School,3 Year Avg,Elementary,76.3,,,0.7,0.78,14.5,Above,,,,,,,,,,,,,,,,,2
+3057,Continental,Continental Colony Elementary School,2014,Elementary,54.2,,,0.64,0.25,-4.2,Below,,,413,,,,,,,,,,,,0.75,0.81,2
+3057,Continental,Continental Colony Elementary School,2015,Elementary,53.1,0.21,0.15,0.73,0.57,-4.7,Below,0.41,,472,,,,,,,,,,,,0.73,0.69,2
+3057,Continental,Continental Colony Elementary School,2016,Elementary,55.4,0.17,0.15,0.64,0.56,0.9,Average,0.48,,484,,,,,,,,,,,,0.8,0.78,2
+3057,Continental,Continental Colony Elementary School,2017,Elementary,61.1,0.17,0.14,0.69,0.57,4,Above,0.48,,489,,,,,,,,0.03,0.08,0.71,0.41,0.72,0.82,2
+3057,Continental,Continental Colony Elementary School,2018,Elementary,,,,,,,,,,452,0.98,,0.01,,,,,,,,,,,2
+3057,Continental,Continental Colony Elementary School,3 Year Avg,Elementary,56.5,,,0.68,0.57,0,Average,,,,,,,,,,,,,,,,,2
+1410,CSK,Coretta Scott King Women's Academy,2016,Middle,59.5,0.22,0.12,0.66,0.62,8.2,Above,0.36,,254,,,,,,,,,,,,0.88,0.74,2
+1410,CSK,Coretta Scott King Women's Academy,2016,High,66.3,0.26,0.1,0.64,0.53,8.2,Above,0.27,0.897,250,,,,,,,,,,,,0.72,0.68,2
+1410,CSK,Coretta Scott King Women's Academy,2017,Middle,68.5,0.2,0.13,0.79,0.69,10.2,Above,0.38,,188,,,,,,,,0.02,0.11,0.69,0.2,0.8,0.8,2
+1410,CSK,Coretta Scott King Women's Academy,2017,High,72.8,0.36,0.05,0.68,0.59,10.2,Above,0.3,0.943,224,,,,,,,,0.02,0.11,0.69,0.2,0.73,0.76,2
+1410,CSK,Coretta Scott King Women's Academy,2018,Middle,,,,,,,,,,167,0.93,,0.05,0.02,,,,,,,,,,2
+1410,CSK,Coretta Scott King Women's Academy,2018,High,,,,,,,,,,197,0.98,,0.02,,,,,,,,,,,2
+1410,CSK,Coretta Scott King Women's Academy,3 Year Avg,High,69.5,,,0.66,0.56,9.2,Above,,,,,,,,,,,,,,,,,2
+1410,CSK,Coretta Scott King Women's Academy,3 Year Avg,Middle,64,,,0.71,0.65,9.2,Above,,,,,,,,,,,,,,,,,2
+121,CSK High,Coretta Scott King Women's Academy,2014,High,59.2,,,0.7,0.66,1.2,Average,,0.797,290,,,,,,,,,,,,0.84,,2
+121,CSK High,Coretta Scott King Women's Academy,2015,High,72.6,0.41,0.11,0.8,0.56,8,Above,0.37,0.94,256,,,,,,,,,,,,0.8,0.81,2
+120,CSK Middle,Coretta Scott King Women's Academy,2014,Middle,65.5,,,0.64,0.59,2.8,Above,,,301,,,,,,,,,,,,0.81,,2
+120,CSK Middle,Coretta Scott King Women's Academy,2015,Middle,56.1,0.22,0.11,0.73,0.6,-3.6,Below,0.47,,284,,,,,,,,,,,,0.84,0.76,2
+304,Deerwood,Deerwood Academy,2014,Elementary,75,,,0.59,0.66,11,Above,,,643,,,,,,,,,,,,0.59,0.75,2
+304,Deerwood,Deerwood Academy,2015,Elementary,56.7,0.25,0.22,0.7,0.64,-3,Below,0.58,,660,,,,,,,,,,,,0.68,0.69,2
+304,Deerwood,Deerwood Academy,2016,Elementary,60.5,0.23,0.27,0.64,0.71,-1.5,Below,0.56,,699,,,,,,,,,,,,0.75,0.71,2
+304,Deerwood,Deerwood Academy,2017,Elementary,64.6,0.26,0.22,0.63,0.63,-1,Average,0.52,,736,,,,,,,,0.01,0.07,0.54,0.31,0.62,0.7,2
+304,Deerwood,Deerwood Academy,2018,Elementary,,,,,,,,,,703,0.97,,0.01,0.01,,,,,,,,,,2
+304,Deerwood,Deerwood Academy,3 Year Avg,Elementary,60.6,,,0.65,0.66,-1.8,Below,,,,,,,,,,,,,,,,,2
+104,Dobbs,Dobbs Elementary School,2014,Elementary,53.4,,,0.58,0.54,-7.6,Below,,,552,,,,,,,,,,,,0.63,0.69,2
+104,Dobbs,Dobbs Elementary School,2015,Elementary,60.3,0.16,0.14,0.75,0.62,1.9,Above,0.45,,531,,,,,,,,,,,,0.75,0.76,2
+104,Dobbs,Dobbs Elementary School,2016,Elementary,63.6,0.15,0.1,0.68,0.56,10.1,Above,0.51,,470,,,,,,,,,,,,0.73,0.79,2
+104,Dobbs,Dobbs Elementary School,2017,Elementary,60.8,0.11,0.09,0.63,0.62,2.5,Above,0.48,,488,,,,,,,,0.03,0.09,0.71,0.32,0.74,0.75,2
+104,Dobbs,Dobbs Elementary School,2018,Elementary,,,,,,,,,,482,0.95,0.01,0.04,,,,,,,,,,,2
+104,Dobbs,Dobbs Elementary School,3 Year Avg,Elementary,61.5,,,0.69,0.6,4.8,Above,,,,,,,,,,,,,,,,,2
+4058,Douglass,Douglass High School,2014,High,49.6,,,0.6,0.6,-1.6,Below,,0.425,808,,,,,,,,,,,,,,2
+4058,Douglass,Douglass High School,2015,High,57.8,0.12,0.06,0.66,0.53,-0.1,Average,0.27,0.587,826,,,,,,,,,,,,0.76,0.64,2
+4058,Douglass,Douglass High School,2016,High,47,0.07,0.04,0.42,0.49,-4.2,Below,0.2,0.688,875,,,,,,,,,,,,0.76,0.66,2
+4058,Douglass,Douglass High School,2017,High,61.2,0.18,0.05,0.63,0.6,6,Above,0.28,0.691,886,,,,,,,,0.02,0.14,0.72,0.4,0.77,0.72,2
+4058,Douglass,Douglass High School,2018,High,,,,,,,,,,929,0.96,,0.03,,,,,,,,,,,2
+4058,Douglass,Douglass High School,3 Year Avg,High,55.3,,,0.58,0.55,0.5,Average,,,,,,,,,,,,,,,,,2
+201,Drew,Drew Charter School,2014,High,83,,,,,18.3,Above,,,99,,,,,,,,,,,,0.88,,2
+201,Drew,Drew Charter School,2014,Elementary,85.8,,,0.57,0.54,18.3,Above,,,881,,,,,,,,,,,,,,2
+201,Drew,Drew Charter School,2014,Middle,85.6,,,0.6,0.62,18.3,Above,,,333,,,,,,,,,,,,,,2
+515,Drew,Drew Charter School,2015,Middle,75.5,0.5,0.38,0.66,0.6,-0.1,Average,0.98,,367,,,,,,,,,,,,0.86,0.88,2
+515,Drew,Drew Charter School,2015,High,72.4,0.59,0.32,0.75,0.54,-0.1,Average,0.73,,200,,,,,,,,,,,,0.82,0.9,2
+201,Drew,Drew Charter School,2015,Elementary,82.5,0.56,0.48,0.73,0.44,8.9,Above,0.66,,979,,,,,,,,,,,,0.67,0.7,2
+201,Drew,Drew Charter School,2016,Elementary,83.8,0.54,0.5,0.65,0.65,6.9,Above,0.66,,1023,,,,,,,,,,,,0.68,0.75,2
+515,Drew,Drew Charter School,2016,Middle,65.3,0.5,0.31,0.62,0.43,0.1,Average,0.86,,385,,,,,,,,,,,,0.82,0.84,2
+515,Drew,Drew Charter School,2016,High,79.7,0.51,0.31,0.7,0.67,0.1,Average,0.77,,306,,,,,,,,,,,,0.73,0.84,2
+201,Drew,Drew Charter School,2017,Elementary,87.9,0.58,0.6,0.66,0.75,6.2,Above,0.62,,1014,,,,,,,,0,0.06,0.22,0.03,0.69,0.78,2
+515,Drew,Drew Charter School,2017,Middle,86.8,0.51,0.45,0.63,0.75,6.3,Above,0.81,,386,,,,,,,,0,0.08,0.29,0.03,0.82,0.79,2
+515,Drew,Drew Charter School,2017,High,91.5,0.6,0.32,0.66,0.7,6.3,Above,0.78,1,369,,,,,,,,0,0.08,0.29,0.03,0.71,0.85,2
+515,Drew,Drew Charter School,2018,High,,,,,,,,,,381,0.93,0.02,0.03,0.02,0.01,,,,,,,,,2
+201,Drew,Drew Charter School,2018,Elementary,,,,,,,,,,991,0.68,0.24,0.03,0.04,0.01,,,,,,,,,2
+515,Drew,Drew Charter School,2018,Middle,,,,,,,,,,385,0.81,0.12,0.02,0.05,0.01,,,,,,,,,2
+515,Drew,Drew Charter School,3 Year Avg,High,81.2,,,0.7,0.64,2.1,Average,,,,,,,,,,,,,,,,,2
+201,Drew,Drew Charter School,3 Year Avg,Elementary,84.7,,,0.68,0.62,7.3,Above,,,,,,,,,,,,,,,,,2
+515,Drew,Drew Charter School,3 Year Avg,Middle,75.8,,,0.64,0.59,2.1,Average,,,,,,,,,,,,,,,,,2
+5558,Dunbar,Dunbar Elementary School,2014,Elementary,52.3,,,0.61,0.42,-8.1,Below,,,419,,,,,,,,,,,,0.58,0.67,2
+5558,Dunbar,Dunbar Elementary School,2015,Elementary,48.4,0.09,0.15,0.62,0.58,-10.6,Below,0.53,,406,,,,,,,,,,,,0.63,0.63,2
+5558,Dunbar,Dunbar Elementary School,2016,Elementary,57.6,0.11,0.14,0.58,0.59,5.8,Above,0.5,,391,,,,,,,,,,,,0.63,0.65,2
+5558,Dunbar,Dunbar Elementary School,2017,Elementary,68.9,0.13,0.16,0.71,0.71,12,Above,0.49,,392,,,,,,,,0.01,0.09,0.78,0.32,0.64,0.65,2
+5558,Dunbar,Dunbar Elementary School,2018,Elementary,,,,,,,,,,381,0.96,,0.03,0.01,,,,,,,,,,2
+5558,Dunbar,Dunbar Elementary School,3 Year Avg,Elementary,58.3,,,0.64,0.64,2.4,Above,,,,,,,,,,,,,,,,,2
+5566,FL Stanton,F.L. Stanton Elementary School,2014,Elementary,50,,,0.54,0.41,-6.9,Below,,,283,,,,,,,,,,,,0.59,0.77,2
+5566,FL Stanton,F.L. Stanton Elementary School,2015,Elementary,48.5,0.12,0.09,0.62,0.56,-6.5,Below,0.51,,280,,,,,,,,,,,,0.63,0.76,2
+5566,FL Stanton,F.L. Stanton Elementary School,2016,Elementary,51.1,0.11,0.11,0.6,0.54,1.5,Above,0.53,,277,,,,,,,,,,,,0.84,0.81,2
+5566,FL Stanton,F.L. Stanton Elementary School,2017,Elementary,51.6,0.11,0.12,0.55,0.52,-2.6,Below,0.43,,312,,,,,,,,0,0.14,0.74,0.49,0.71,0.7,2
+5566,FL Stanton,F.L. Stanton Elementary School,2018,Elementary,,,,,,,,,,293,0.99,,,0.01,,,,,,,,,,2
+5566,FL Stanton,F.L. Stanton Elementary School,3 Year Avg,Elementary,50.4,,,0.59,0.54,-2.5,Below,,,,,,,,,,,,,,,,,2
+3059,Fain,Fain Elementary School,2014,Elementary,44.7,,,0.49,0.45,-14.7,Below,,,517,,,,,,,,,,,,0.62,0.55,2
+3059,Fain,Fain Elementary School,2015,Elementary,49.7,0.09,0.1,0.66,0.58,-9.1,Below,0.43,,540,,,,,,,,,,,,0.73,0.61,2
+3059,Fain,Fain Elementary School,2016,Elementary,39.8,0.03,0.02,0.5,0.38,-8.7,Below,0.35,,512,,,,,,,,,,,,0.67,0.71,2
+3059,Fain,Fain Elementary School,2017,Elementary,48.5,0.05,0.04,0.53,0.56,-4.7,Below,0.42,,490,,,,,,,,0.09,0.1,0.83,0.46,0.61,0.64,2
+3059,Fain,Fain Elementary School,2018,Elementary,,,,,,,,,,471,0.88,,0.11,,,,,,,,,,,2
+3059,Fain,Fain Elementary School,3 Year Avg,Elementary,46,,,0.56,0.5,-7.5,Below,,,,,,,,,,,,,,,,,2
+3559,Fickett,Fickett Elementary School,2014,Elementary,56.1,,,0.66,0.61,-4.3,Below,,,523,,,,,,,,,,,,0.56,0.72,2
+3559,Fickett,Fickett Elementary School,2015,Elementary,71.4,0.16,0.16,0.8,0.74,7.6,Above,0.53,,536,,,,,,,,,,,,0.65,0.77,2
+3559,Fickett,Fickett Elementary School,2016,Elementary,63.5,0.17,0.2,0.73,0.72,6.8,Above,0.51,,552,,,,,,,,,,,,0.71,0.77,2
+3559,Fickett,Fickett Elementary School,2017,Elementary,58,0.16,0.19,0.54,0.67,-2.2,Below,0.5,,538,,,,,,,,0.02,0.09,0.63,0.32,0.68,0.73,2
+3559,Fickett,Fickett Elementary School,2018,Elementary,,,,,,,,,,548,0.98,,0.02,0.01,,,,,,,,,,2
+3559,Fickett,Fickett Elementary School,3 Year Avg,Elementary,64.3,,,0.69,0.71,4.1,Above,,,,,,,,,,,,,,,,,2
+105,Finch,Finch Elementary School,2014,Elementary,48.6,,,0.54,0.36,-11.9,Below,,,540,,,,,,,,,,,,,,2
+105,Finch,Finch Elementary School,2015,Elementary,56.9,0.09,0.11,0.65,0.69,-2.1,Below,0.48,,552,,,,,,,,,,,,0.73,0.72,2
+105,Finch,Finch Elementary School,2016,Elementary,44.3,0.12,0.07,0.64,0.49,-4.7,Below,0.45,,551,,,,,,,,,,,,0.72,0.65,2
+105,Finch,Finch Elementary School,2017,Elementary,52,0.12,0.08,0.59,0.59,-0.7,Average,0.46,,586,,,,,,,,0,0.09,0.82,0.47,0.66,0.75,2
+105,Finch,Finch Elementary School,2018,Elementary,,,,,,,,,,545,0.98,,0.01,0.01,,,,,,,,,,2
+105,Finch,Finch Elementary School,3 Year Avg,Elementary,51,,,0.62,0.59,-2.5,Below,,,,,,,,,,,,,,,,,2
+403,Forrest Hill,Forrest Hill Academy,2014,Middle,29.5,,,0.43,0.24,-6,Average,,,73,,,,,,,,,,,,0.7,,2
+403,Forrest Hill,Forrest Hill Academy,2014,High,22.4,,,0.44,0.37,-6,Average,,0,173,,,,,,,,,,,,0.7,,2
+403,Forrest Hill,Forrest Hill Academy,2015,High,31.8,0,0,0.48,0.41,-10.5,Below,0.16,0,182,,,,,,,,,,,,,,2
+403,Forrest Hill,Forrest Hill Academy,2015,Middle,28.4,0.01,0.02,0.42,0.39,-10.5,Below,0.2,,95,,,,,,,,,,,,,,2
+403,Forrest Hill,Forrest Hill Academy,2016,High,25.1,0.02,0,0.22,0.26,4.1,Average,0.32,0,107,,,,,,,,,,,,0.82,0.79,2
+403,Forrest Hill,Forrest Hill Academy,2016,Middle,23.7,0.02,0.01,0.2,0.32,4.1,Average,0.2,,77,,,,,,,,,,,,0.68,0.67,2
+403,Forrest Hill,Forrest Hill Academy,2017,High,36.8,0.03,0,0.34,0.36,26.1,Above,0.45,0.027,55,,,,,,,,0.02,0.13,0.81,5.04,0.68,0.87,2
+403,Forrest Hill,Forrest Hill Academy,2017,Middle,,0.02,0.01,0.39,0.37,26.1,Above,0.37,,42,,,,,,,,0.02,0.13,0.81,5.04,0.63,0.75,2
+403,Forrest Hill,Forrest Hill Academy,2018,High,,,,,,,,,,78,0.94,,0.05,0.01,,,,,,,,,,2
+403,Forrest Hill,Forrest Hill Academy,2018,Middle,,,,,,,,,,56,1,,,,,,,,,,,,,2
+403,Forrest Hill,Forrest Hill Academy,3 Year Avg,High,31.2,,,0.33,0.34,6.5,Average,,,,,,,,,,,,,,,,,2
+403,Forrest Hill,Forrest Hill Academy,3 Year Avg,Middle,26,,,0.33,0.36,6.5,Average,,,,,,,,,,,,,,,,,2
+1560,Garden Hills,Garden Hills Elementary School,2014,Elementary,84.4,,,0.55,0.59,8.9,Above,,,624,,,,,,,,,,,,,,2
+1560,Garden Hills,Garden Hills Elementary School,2015,Elementary,78.6,0.38,0.32,0.79,0.64,8,Above,0.54,,611,,,,,,,,,,,,0.9,0.91,2
+1560,Garden Hills,Garden Hills Elementary School,2016,Elementary,82,0.42,0.41,0.71,0.7,8.6,Above,0.69,,488,,,,,,,,,,,,0.88,0.94,2
+1560,Garden Hills,Garden Hills Elementary School,2017,Elementary,75.2,0.39,0.37,0.65,0.68,4.8,Above,0.66,,516,,,,,,,,0.57,0.08,0.38,0.18,0.73,0.89,2
+1560,Garden Hills,Garden Hills Elementary School,2018,Elementary,,,,,,,,,,515,0.17,0.23,0.54,0.04,0.02,,,,,,,,,2
+1560,Garden Hills,Garden Hills Elementary School,3 Year Avg,Elementary,78.6,,,0.72,0.67,7.1,Above,,,,,,,,,,,,,,,,,2
+1,Georgia,Georgia,2014,Elementary,72.7,,,0.61,0.61,,,,,,,,,,,,,,,,,,,2
+1,Georgia,Georgia,2014,High,68.4,,,0.63,0.65,,,,0.725,,,,,,,,,,,,,,,2
+1,Georgia,Georgia,2014,Middle,73.8,,,0.62,0.61,,,,,,,,,,,,,,,,,,,2
+1,Georgia,Georgia,2015,High,75.8,0.37,0.33,0.64,0.64,,,,0.788,,,,,,,,,,,,,,,2
+1,Georgia,Georgia,2015,Elementary,76,0.38,0.39,0.64,0.64,,,,,,,,,,,,,,,,,,,2
+1,Georgia,Georgia,2015,Middle,71.2,0.38,0.37,0.64,0.64,,,,,,,,,,,,,,,,,,,2
+1,Georgia,Georgia,2016,High,75.7,0.41,0.33,0.64,0.64,,,,0.792,,,,,,,,,,,,,,,2
+1,Georgia,Georgia,2016,Middle,71.5,0.41,0.4,0.64,0.64,,,,,,,,,,,,,,,,,,,2
+1,Georgia,Georgia,2016,Elementary,71.7,0.37,0.4,0.64,0.64,,,,,,,,,,,,,,,,,,,2
+1,Georgia,Georgia,2017,Middle,73,0.4,0.41,0.66,0.66,,,,,,,,,,,,,,,,,,,2
+1,Georgia,Georgia,2017,Elementary,72.9,0.39,0.41,0.66,0.65,,,,,,,,,,,,,,,,,,,2
+1,Georgia,Georgia,2017,High,77,0.48,0.34,0.65,0.65,,,,0.806,,,,,,,,,,,,,,,2
+1,Georgia,Georgia,2018,Elementary,,,,,,,,,,,,,,,,,,,,,,,,2
+1,Georgia,Georgia,2018,High,,,,,,,,,,,,,,,,,,,,,,,,2
+1,Georgia,Georgia,2018,Middle,,,,,,,,,,,,,,,,,,,,,,,,2
+1,Georgia,Georgia,3 Year Avg,High,76.1,,,0.64,0.64,,,,,,,,,,,,,,,,,,,2
+1,Georgia,Georgia,3 Year Avg,Elementary,73.5,,,0.65,0.65,,,,,,,,,,,,,,,,,,,2
+1,Georgia,Georgia,3 Year Avg,Middle,71.9,,,0.65,0.65,,,,,,,,,,,,,,,,,,,2
+2560,Gideons,Gideons Elementary School,2014,Elementary,48.2,,,0.61,0.65,-12.6,Below,,,537,,,,,,,,,,,,,,2
+2560,Gideons,Gideons Elementary School,2015,Elementary,47.2,0.08,0.05,0.58,0.37,-10.5,Below,0.39,,458,,,,,,,,,,,,0.76,0.68,2
+2560,Gideons,Gideons Elementary School,2016,Elementary,51.2,0.07,0.05,0.72,0.47,1.3,Above,0.45,,380,,,,,,,,,,,,0.85,0.73,2
+2560,Gideons,Gideons Elementary School,2017,Elementary,58.4,0.1,0.11,0.57,0.71,3.3,Above,0.46,,311,,,,,,,,0,0.07,0.8,0.45,0.78,0.73,2
+2560,Gideons,Gideons Elementary School,2018,Elementary,,,,,,,,,,364,0.97,0.01,0.01,0.01,,,,,,,,,,2
+2560,Gideons,Gideons Elementary School,3 Year Avg,Elementary,52.2,,,0.62,0.5,-2,Below,,,,,,,,,,,,,,,,,2
+4560,Grady,Grady High School,2014,High,71.1,,,0.64,0.59,2,Above,,0.824,1330,,,,,,,,,,,,0.69,,2
+4560,Grady,Grady High School,2015,High,70.5,0.5,0.36,0.66,0.57,-5.2,Below,0.39,0.897,1287,,,,,,,,,,,,0.7,0.77,2
+4560,Grady,Grady High School,2016,High,72.4,0.56,0.37,0.61,0.43,-3.9,Below,0.44,0.864,1364,,,,,,,,,,,,0.76,0.8,2
+4560,Grady,Grady High School,2017,High,83.6,0.65,0.41,0.67,0.6,3.3,Above,0.41,0.884,1372,,,,,,,,0.02,0.1,0.23,0.13,0.74,0.84,2
+4560,Grady,Grady High School,2018,High,,,,,,,,,,1332,0.47,0.39,0.08,0.04,0.02,,,,,,,,,2
+4560,Grady,Grady High School,3 Year Avg,High,75.5,,,0.64,0.54,-1.9,Below,,,,,,,,,,,,,,,,,2
+504,Harper-Archer,Harper-Archer Middle School,2014,Middle,60.1,,,0.59,0.51,2.8,Above,,,620,,,,,,,,,,,,0.88,,2
+504,Harper-Archer,Harper-Archer Middle School,2015,Middle,44.5,0.06,0.05,0.56,0.52,-10,Below,0.37,,667,,,,,,,,,,,,0.82,0.55,2
+504,Harper-Archer,Harper-Archer Middle School,2016,Middle,42.8,0.09,0.04,0.53,0.45,-2.9,Below,0.39,,643,,,,,,,,,,,,0.83,0.72,2
+504,Harper-Archer,Harper-Archer Middle School,2017,Middle,44.4,0.08,0.03,0.56,0.44,-5.3,Below,0.45,,780,,,,,,,,0.03,0.19,0.81,0.48,0.76,0.57,2
+504,Harper-Archer,Harper-Archer Middle School,2018,Middle,,,,,,,,,,486,0.93,,0.06,0.01,,,,,,,,,,2
+504,Harper-Archer,Harper-Archer Middle School,3 Year Avg,Middle,43.9,,,0.55,0.47,-6.1,Below,,,,,,,,,,,,,,,,,2
+103,Heritage,Heritage Academy Elementary School,2014,Elementary,72,,,0.59,0.67,10.9,Above,,,544,,,,,,,,,,,,,,2
+103,Heritage,Heritage Academy Elementary School,2015,Elementary,63.5,0.21,0.23,0.71,0.69,5.1,Above,0.56,,523,,,,,,,,,,,,0.78,0.67,2
+103,Heritage,Heritage Academy Elementary School,2016,Elementary,61.3,0.14,0.19,0.74,0.62,8.8,Above,0.57,,490,,,,,,,,,,,,0.72,0.67,2
+103,Heritage,Heritage Academy Elementary School,2017,Elementary,60.3,0.19,0.25,0.57,0.6,1.6,Above,0.53,,496,,,,,,,,0,0.07,0.74,0.32,0.62,0.63,2
+103,Heritage,Heritage Academy Elementary School,2018,Elementary,,,,,,,,,,481,0.98,,0.02,,,,,,,,,,,2
+103,Heritage,Heritage Academy Elementary School,3 Year Avg,Elementary,61.7,,,0.67,0.63,5.1,Above,,,,,,,,,,,,,,,,,2
+1052,Bethune,Hollis Innovation Academy,2014,Elementary,45.2,,,0.42,0.37,-13.1,Below,,,532,,,,,,,,,,,,,,2
+1052,Bethune,Hollis Innovation Academy,2015,Elementary,44.7,0.1,0.08,0.51,0.61,-11.2,Below,0.44,,520,,,,,,,,,,,,0.63,0.57,2
+1052,Bethune,Hollis Innovation Academy,2016,Elementary,39.7,0.06,0.08,0.45,0.52,-8.5,Below,0.44,,524,,,,,,,,,,,,0.71,0.6,2
+1414,Hollis,Hollis Innovation Academy,2017,Elementary,58.6,0.09,0.1,0.6,0.66,5.6,Above,0.45,,509,,,,,,,,0.01,0.1,0.75,0.6,0.68,0.77,2
+1414,Hollis,Hollis Innovation Academy,2018,Elementary,,,,,,,,,,509,0.96,,0.03,0.01,,,,,,,,,,2
+1414,Hollis,Hollis Innovation Academy,2018,Middle,,,,,,,,,,49,0.96,,0.04,,,,,,,,,,,2
+1414,Hollis,Hollis Innovation Academy,3 Year Avg,Elementary,58.6,,,0.6,0.66,5.6,Above,,,,,,,,,,,,,,,,,2
+1414,Hollis,Hollis Innovation Academy,3 Year Avg,Middle,,,,,,5.6,Above,,,,,,,,,,,,,,,,,2
+2062,Hope-Hill,Hope-Hill Elementary School,2014,Elementary,63.2,,,0.57,0.67,6.1,Above,,,385,,,,,,,,,,,,0.66,0.77,2
+2062,Hope-Hill,Hope-Hill Elementary School,2015,Elementary,66.4,0.25,0.25,0.71,0.77,11,Above,0.5,,352,,,,,,,,,,,,0.74,0.66,2
+2062,Hope-Hill,Hope-Hill Elementary School,2016,Elementary,60.8,0.15,0.18,0.67,0.77,6.3,Above,0.44,,433,,,,,,,,,,,,0.58,0.61,2
+2062,Hope-Hill,Hope-Hill Elementary School,2017,Elementary,60.5,0.18,0.23,0.58,0.59,3.5,Above,0.5,,456,,,,,,,,0.03,0.1,0.69,0.46,0.59,0.72,2
+2062,Hope-Hill,Hope-Hill Elementary School,2018,Elementary,,,,,,,,,,420,0.9,0.02,0.05,0.02,,,,,,,,,,2
+2062,Hope-Hill,Hope-Hill Elementary School,3 Year Avg,Elementary,62.5,,,0.65,0.71,6.9,Above,,,,,,,,,,,,,,,,,2
+5562,Humphries,Humphries Elementary School,2014,Elementary,56.2,,,0.59,0.64,-3.1,Below,,,356,,,,,,,,,,,,0.58,0.76,2
+5562,Humphries,Humphries Elementary School,2015,Elementary,67.7,0.18,0.18,0.71,0.67,4.5,Above,0.7,,335,,,,,,,,,,,,0.79,0.74,2
+5562,Humphries,Humphries Elementary School,2016,Elementary,62.4,0.19,0.16,0.66,0.64,4.6,Above,0.75,,355,,,,,,,,,,,,0.84,0.79,2
+5562,Humphries,Humphries Elementary School,2017,Elementary,67.5,0.19,0.13,0.63,0.79,10.1,Above,0.68,,332,,,,,,,,0.05,0.09,0.72,0.37,0.77,0.79,2
+5562,Humphries,Humphries Elementary School,2018,Elementary,,,,,,,,,,325,0.91,,0.08,0.01,,,,,,,,,,2
+5562,Humphries,Humphries Elementary School,3 Year Avg,Elementary,65.8,,,0.66,0.7,6.4,Above,,,,,,,,,,,,,,,,,2
+1063,Hutchinson,Hutchinson Elementary School,2014,Elementary,67.9,,,0.62,0.44,6.2,Above,,,395,,,,,,,,,,,,0.63,0.76,2
+1063,Hutchinson,Hutchinson Elementary School,2015,Elementary,58.7,0.15,0.11,0.73,0.53,-3.9,Below,0.53,,438,,,,,,,,,,,,0.69,0.68,2
+1063,Hutchinson,Hutchinson Elementary School,2016,Elementary,46.3,0.11,0.1,0.52,0.54,-6.7,Below,0.48,,472,,,,,,,,,,,,0.73,0.7,2
+1063,Hutchinson,Hutchinson Elementary School,2017,Elementary,61.7,0.08,0.12,0.61,0.65,3.9,Above,0.56,,482,,,,,,,,0.14,0.05,0.7,0.48,0.65,0.68,2
+1063,Hutchinson,Hutchinson Elementary School,2018,Elementary,,,,,,,,,,457,0.85,,0.14,0.01,,,,,,,,,,2
+1063,Hutchinson,Hutchinson Elementary School,3 Year Avg,Elementary,55.5,,,0.62,0.58,-2.2,Below,,,,,,,,,,,,,,,,,2
+1563,Inman,Inman Middle School,2014,Middle,84.2,,,0.67,0.77,4.3,Above,,,981,,,,,,,,,,,,0.77,,2
+1563,Inman,Inman Middle School,2015,Middle,90.7,0.63,0.65,0.73,0.84,14.4,Above,0.58,,1001,,,,,,,,,,,,0.78,0.77,2
+1563,Inman,Inman Middle School,2016,Middle,91.6,0.64,0.65,0.68,0.8,13.9,Above,0.59,,1068,,,,,,,,,,,,0.79,0.8,2
+1563,Inman,Inman Middle School,2017,Middle,89.9,0.66,0.68,0.69,0.78,12,Above,0.56,,1091,,,,,,,,0.03,0.1,0.23,0.16,0.83,0.8,2
+1563,Inman,Inman Middle School,2018,Middle,,,,,,,,,,1075,0.33,0.52,0.07,0.05,0.03,,,,,,,,,2
+1563,Inman,Inman Middle School,3 Year Avg,Middle,90.7,,,0.7,0.81,13.4,Above,,,,,,,,,,,,,,,,,2
+1418,Invictus,Invictus Academy,2018,Middle,,,,,,,,,,333,0.93,,0.06,,,,,,,,,,,2
+1418,Invictus,Invictus Academy,3 Year Avg,Middle,,,,,,,,,,,,,,,,,,,,,,,,2
+2563,Jackson,Jackson Elementary School,2014,Elementary,93.5,,,0.71,0.71,4.7,Above,,,918,,,,,,,,,,,,0.68,0.9,2
+2563,Jackson,Jackson Elementary School,2015,Elementary,97.7,0.82,0.76,0.82,0.82,12.2,Above,0.66,,834,,,,,,,,,,,,0.7,0.87,2
+2563,Jackson,Jackson Elementary School,2016,Elementary,95.4,0.83,0.77,0.7,0.68,6.5,Above,0.61,,829,,,,,,,,,,,,0.73,0.87,2
+2563,Jackson,Jackson Elementary School,2017,Elementary,100.7,0.8,0.81,0.72,0.86,10,Above,0.62,,774,,,,,,,,0.05,0.07,0.01,0.06,0.74,0.85,2
+2563,Jackson,Jackson Elementary School,2018,Elementary,,,,,,,,,,742,0.13,0.68,0.07,0.05,0.07,,,,,,,,,2
+2563,Jackson,Jackson Elementary School,3 Year Avg,Elementary,97.9,,,0.75,0.78,9.6,Above,,,,,,,,,,,,,,,,,2
+186,Jackson,Jackson High School,2014,High,57,,,0.7,0.62,2.8,Above,,0.685,960,,,,,,,,,,,,0.83,,2
+186,Jackson,Jackson High School,2015,High,70.8,0.29,0.2,0.75,0.7,8.1,Above,0.35,0.71,1022,,,,,,,,,,,,0.78,0.74,2
+186,Jackson,Jackson High School,2016,High,76,0.27,0.31,0.65,0.69,12.2,Above,0.35,0.769,1096,,,,,,,,,,,,0.77,0.8,2
+186,Jackson,Jackson High School,2017,High,75.6,0.4,0.25,0.66,0.66,7.4,Above,0.32,0.768,1138,,,,,,,,0.01,0.12,0.52,0.2,0.75,0.84,2
+186,Jackson,Jackson High School,2018,High,,,,,,,,,,1205,0.83,0.09,0.05,0.02,0.01,,,,,,,,,2
+186,Jackson,Jackson High School,3 Year Avg,High,74.1,,,0.68,0.68,9.2,Above,,,,,,,,,,,,,,,,,2
+4063,Jones,Jones Elementary School,2014,Elementary,61.1,,,0.54,0.59,-1.3,Average,,,518,,,,,,,,,,,,,,2
+4063,Jones,Jones Elementary School,2015,Elementary,64.1,0.23,0.23,0.64,0.67,3.3,Above,0.52,,587,,,,,,,,,,,,0.76,0.82,2
+4063,Jones,Jones Elementary School,2016,Elementary,56.3,0.21,0.17,0.65,0.47,1.1,Above,0.52,,576,,,,,,,,,,,,0.74,0.79,2
+4063,Jones,Jones Elementary School,2017,Elementary,64.5,0.2,0.19,0.64,0.6,8,Above,0.51,,524,,,,,,,,0.01,0.1,0.76,0.36,0.63,0.76,2
+4063,Jones,Jones Elementary School,2018,Elementary,,,,,,,,,,541,0.96,0.01,0.01,0.01,0.01,,,,,,,,,2
+4063,Jones,Jones Elementary School,3 Year Avg,Elementary,61.6,,,0.65,0.58,4.1,Above,,,,,,,,,,,,,,,,,2
+212,KIPP Collegiate,KIPP Atlanta Collegiate High School,2014,High,67,,,0.68,0.7,0.3,Average,,,366,,,,,,,,,,,,0.77,,2
+212,KIPP Collegiate,KIPP Atlanta Collegiate High School,2015,High,85.2,0.34,0.26,0.65,0.63,14.3,Above,0.25,0.929,525,,,,,,,,,,,,0.78,0.83,2
+212,KIPP Collegiate,KIPP Atlanta Collegiate High School,2016,High,76,0.26,0.17,0.54,0.45,9.4,Above,0.18,0.929,638,,,,,,,,,,,,0.77,0.8,2
+212,KIPP Collegiate,KIPP Atlanta Collegiate High School,2017,High,72.9,0.42,0.13,0.6,0.58,4.1,Above,0.29,0.914,683,,,,,,,,0,0.11,0.47,0.14,0.72,0.81,2
+212,KIPP Collegiate,KIPP Atlanta Collegiate High School,2018,High,,,,,,,,,,776,0.98,,0.01,0.01,,,,,,,,,,2
+212,KIPP Collegiate,KIPP Atlanta Collegiate High School,3 Year Avg,High,78,,,0.6,0.54,9.2,Above,,,,,,,,,,,,,,,,,2
+115,KIPP STRIVE,KIPP STRIVE Academy,2014,Middle,92.8,,,0.62,0.74,14.3,Above,,,254,,,,,,,,,,,,0.81,,2
+115,KIPP STRIVE,KIPP STRIVE Academy,2014,Elementary,65.8,,,0.54,0.57,14.3,Above,,,95,,,,,,,,,,,,,,2
+115,KIPP STRIVE,KIPP STRIVE Academy,2015,Middle,86,0.41,0.42,0.77,0.84,9.1,Above,0.62,,249,,,,,,,,,,,,0.91,0.87,2
+115,KIPP STRIVE,KIPP STRIVE Academy,2015,Elementary,72.5,0.42,0.27,0.78,0.64,9.1,Above,0.59,,86,,,,,,,,,,,,0.67,0.68,2
+115,KIPP STRIVE,KIPP STRIVE Academy,2016,Elementary,80.8,0.54,0.32,0.79,0.69,13.2,Above,0.62,,89,,,,,,,,,,,,0.68,0.89,2
+115,KIPP STRIVE,KIPP STRIVE Academy,2016,Middle,79.5,0.46,0.42,0.69,0.68,13.2,Above,0.57,,247,,,,,,,,,,,,0.88,0.84,2
+115,KIPP STRIVE,KIPP STRIVE Academy,2017,Middle,73.1,0.39,0.4,0.62,0.72,7.2,Above,0.43,,259,,,,,,,,0,0.1,0.46,0.06,0.75,0.82,2
+115,KIPP STRIVE,KIPP STRIVE Academy,2017,Elementary,77.1,0.33,0.29,0.73,0.74,7.2,Above,0.59,,85,,,,,,,,0,0.1,0.46,0.06,0.76,0.87,2
+115,KIPP STRIVE,KIPP STRIVE Academy,2018,Elementary,,,,,,,,,,115,0.97,,0.02,0.01,,,,,,,,,,2
+115,KIPP STRIVE,KIPP STRIVE Academy,2018,Middle,,,,,,,,,,279,0.96,,0.03,0.01,,0.01,,,,,,,,2
+115,KIPP STRIVE,KIPP STRIVE Academy,3 Year Avg,Elementary,76.8,,,0.77,0.69,9.8,Above,,,,,,,,,,,,,,,,,2
+115,KIPP STRIVE,KIPP STRIVE Academy,3 Year Avg,Middle,79.5,,,0.69,0.75,9.8,Above,,,,,,,,,,,,,,,,,2
+213,STRIVE Primary,KIPP STRIVE Primary,2014,Elementary,,,,,,,,,,224,,,,,,,,,,,,,,2
+213,STRIVE Primary,KIPP STRIVE Primary,2015,Elementary,,,,,,,,0.52,,336,,,,,,,,,,,,,,2
+213,STRIVE Primary,KIPP STRIVE Primary,2016,Elementary,,0.43,0.41,,,,,0.54,,433,,,,,,,,,,,,0.86,0.92,2
+213,STRIVE Primary,KIPP STRIVE Primary,2017,Elementary,54.2,0.35,0.32,0.34,0.35,-17.6,Below,0.67,,523,,,,,,,,0,0.04,0.48,0.03,0.87,0.88,2
+213,STRIVE Primary,KIPP STRIVE Primary,2018,Elementary,,,,,,,,,,525,0.97,0.01,0.01,0.01,,,,,,,,,,2
+213,STRIVE Primary,KIPP STRIVE Primary,3 Year Avg,Elementary,54.2,,,0.34,0.35,-17.6,Below,,,,,,,,,,,,,,,,,2
+122,KIPP Vision,KIPP Vision Academy,2014,Middle,76.4,,,0.66,0.65,2.6,Above,,,272,,,,,,,,,,,,0.78,,2
+122,KIPP Vision,KIPP Vision Academy,2014,Elementary,59.1,,,0.44,0.37,2.6,Above,,,75,,,,,,,,,,,,,,2
+122,KIPP Vision,KIPP Vision Academy,2015,Elementary,68.1,0.15,0.06,0.76,0.52,9.8,Above,0.59,,75,,,,,,,,,,,,0.62,0.7,2
+122,KIPP Vision,KIPP Vision Academy,2015,Middle,72.8,0.26,0.28,0.72,0.75,9.8,Above,0.5,,270,,,,,,,,,,,,0.72,0.76,2
+122,KIPP Vision,KIPP Vision Academy,2016,Elementary,69.9,0.21,0.25,0.67,0.79,3.4,Above,0.48,,79,,,,,,,,,,,,0.63,0.58,2
+122,KIPP Vision,KIPP Vision Academy,2016,Middle,54,0.21,0.17,0.6,0.52,3.4,Above,0.35,,265,,,,,,,,,,,,0.73,0.73,2
+122,KIPP Vision,KIPP Vision Academy,2017,Middle,67.5,0.21,0.24,0.69,0.71,5.7,Above,0.31,,248,,,,,,,,0.01,0.09,0.63,0.15,0.8,0.83,2
+122,KIPP Vision,KIPP Vision Academy,2017,Elementary,57.8,0.17,0.15,0.64,0.51,5.7,Above,0.46,,86,,,,,,,,0.01,0.09,0.63,0.15,0.64,0.78,2
+122,KIPP Vision,KIPP Vision Academy,2018,Elementary,,,,,,,,,,82,0.98,,0.02,,,,,,,,,,,2
+122,KIPP Vision,KIPP Vision Academy,2018,Middle,,,,,,,,,,280,0.96,,0.04,,,,,,,,,,,2
+122,KIPP Vision,KIPP Vision Academy,3 Year Avg,Elementary,65.2,,,0.68,0.61,6.3,Above,,,,,,,,,,,,,,,,,2
+122,KIPP Vision,KIPP Vision Academy,3 Year Avg,Middle,64.7,,,0.67,0.66,6.3,Above,,,,,,,,,,,,,,,,,2
+214,Vision Primary,KIPP Vision Primary,2014,Elementary,96.5,,,,,,,,,109,,,,,,,,,,,,,,2
+214,Vision Primary,KIPP Vision Primary,2015,Elementary,,,,,,,,0.43,,210,,,,,,,,,,,,,,2
+214,Vision Primary,KIPP Vision Primary,2016,Elementary,,,,,,,,0.4,,310,,,,,,,,,,,,,,2
+214,Vision Primary,KIPP Vision Primary,2017,Elementary,,0.34,0.4,,,,,0.33,,414,,,,,,,,0.01,0.07,0.61,0.05,0.53,0.69,2
+214,Vision Primary,KIPP Vision Primary,2018,Elementary,,,,,,,,,,522,0.95,,0.05,,,,,,,,,,,2
+214,Vision Primary,KIPP Vision Primary,3 Year Avg,Elementary,,,,,,,,,,,,,,,,,,,,,,,,2
+605,KIPP WAYS,KIPP WAYS Academy,2014,Elementary,63.3,,,0.52,0.51,1.8,Average,,,81,,,,,,,,,,,,,,2
+605,KIPP WAYS,KIPP WAYS Academy,2014,Middle,78.8,,,0.56,0.6,1.8,Average,,,248,,,,,,,,,,,,0.82,,2
+605,KIPP WAYS,KIPP WAYS Academy,2015,Elementary,85,0.35,0.2,0.77,0.56,21.2,Above,0.51,,85,,,,,,,,,,,,0.59,0.78,2
+605,KIPP WAYS,KIPP WAYS Academy,2015,Middle,86.2,0.36,0.38,0.74,0.82,21.2,Above,0.48,,250,,,,,,,,,,,,0.89,0.88,2
+605,KIPP WAYS,KIPP WAYS Academy,2016,Middle,80.9,0.38,0.32,0.7,0.7,17.7,Above,0.25,,248,,,,,,,,,,,,0.9,0.9,2
+605,KIPP WAYS,KIPP WAYS Academy,2016,Elementary,76.6,0.31,0.1,0.77,0.42,17.7,Above,0.31,,78,,,,,,,,,,,,0.65,0.83,2
+605,KIPP WAYS,KIPP WAYS Academy,2017,Middle,71.6,0.3,0.24,0.62,0.63,4.2,Above,0.33,,246,,,,,,,,0,0.09,0.55,0.07,0.78,0.87,2
+605,KIPP WAYS,KIPP WAYS Academy,2017,Elementary,66.2,0.19,0.19,0.65,0.53,4.2,Above,0.45,,77,,,,,,,,0,0.09,0.55,0.07,0.64,0.62,2
+605,KIPP WAYS,KIPP WAYS Academy,2018,Elementary,,,,,,,,,,90,0.98,,0.01,0.01,,,,,,,,,,2
+605,KIPP WAYS,KIPP WAYS Academy,2018,Middle,,,,,,,,,,269,0.98,,0.02,,,,,,,,,,,2
+605,KIPP WAYS,KIPP WAYS Academy,3 Year Avg,Elementary,75.9,,,0.73,0.5,14.4,Above,,,,,,,,,,,,,,,,,2
+605,KIPP WAYS,KIPP WAYS Academy,3 Year Avg,Middle,79.5,,,0.69,0.71,14.4,Above,,,,,,,,,,,,,,,,,2
+215,WAYS Primary,KIPP WAYS Primary,2015,Elementary,,,,,,,,0.47,,103,,,,,,,,,,,,,,2
+215,WAYS Primary,KIPP WAYS Primary,2016,Elementary,,,,,,,,0.34,,203,,,,,,,,,,,,,,2
+215,WAYS Primary,KIPP WAYS Primary,2017,Elementary,,,,,,,,0.33,,306,,,,,,,,0,0.04,0.53,0.07,,,2
+215,WAYS Primary,KIPP WAYS Primary,2018,Elementary,,,,,,,,,,409,0.98,,,0.01,,,,,,,,,,2
+215,WAYS Primary,KIPP WAYS Primary,3 Year Avg,Elementary,,,,,,,,,,,,,,,,,,,,,,,,2
+1064,Kimberly,Kimberly Elementary School,2014,Elementary,55.6,,,0.54,0.7,-1,Average,,,461,,,,,,,,,,,,0.62,0.67,2
+1064,Kimberly,Kimberly Elementary School,2015,Elementary,46.6,0.14,0.11,0.7,0.52,-8,Below,0.43,,508,,,,,,,,,,,,0.79,0.75,2
+1064,Kimberly,Kimberly Elementary School,2016,Elementary,46.4,0.09,0.09,0.56,0.5,-5.2,Below,0.45,,430,,,,,,,,,,,,0.71,0.59,2
+1064,Kimberly,Kimberly Elementary School,2017,Elementary,57,0.14,0.14,0.57,0.63,0.1,Average,0.45,,471,,,,,,,,0.04,0.11,0.69,0.54,0.75,0.76,2
+1064,Kimberly,Kimberly Elementary School,2018,Elementary,,,,,,,,,,431,0.94,,0.05,,,,,,,,,,,2
+1064,Kimberly,Kimberly Elementary School,3 Year Avg,Elementary,50,,,0.61,0.55,-4.4,Below,,,,,,,,,,,,,,,,,2
+1417,Kindezi O4W,Kindezi Old Fourth Ward,2018,Middle,,,,,,,,,,110,0.9,0.04,0.05,0.02,,,,,,,,,,2
+1417,Kindezi O4W,Kindezi Old Fourth Ward,2018,Elementary,,,,,,,,,,358,0.8,0.12,0.03,0.05,,,,,,,,,,2
+1417,Kindezi O4W,Kindezi Old Fourth Ward,3 Year Avg,Elementary,,,,,,,,,,,,,,,,,,,,,,,,2
+1417,Kindezi O4W,Kindezi Old Fourth Ward,3 Year Avg,Middle,,,,,,,,,,,,,,,,,,,,,,,,2
+123,Kindezi,Kindezi West,2014,Elementary,80.9,,,0.47,0.58,8.9,Above,,,166,,,,,,,,,,,,,,2
+123,Kindezi,Kindezi West,2014,Middle,95.5,,,0.74,0.78,8.9,Above,,,24,,,,,,,,,,,,,,2
+123,Kindezi,Kindezi West,2015,Middle,86.2,0.57,0.48,0.76,0.76,2.6,Average,0.79,,44,,,,,,,,,,,,0.89,0.97,2
+123,Kindezi,Kindezi West,2015,Elementary,75,0.46,0.42,0.86,0.67,2.6,Average,0.79,,170,,,,,,,,,,,,0.72,0.84,2
+123,Kindezi,Kindezi West,2016,Elementary,77.3,0.42,0.37,0.7,0.72,11.5,Above,0.64,,575,,,,,,,,,,,,0.68,0.7,2
+123,Kindezi,Kindezi West,2016,Middle,76.4,0.43,0.29,0.64,0.52,11.5,Above,0.86,,87,,,,,,,,,,,,0.83,0.86,2
+123,Kindezi,Kindezi West,2017,Middle,70.9,0.23,0.34,0.58,0.79,2.3,Above,0.4,,142,,,,,,,,0,0.1,0.4,0.06,0.7,0.66,2
+123,Kindezi,Kindezi West,2017,Elementary,72.8,0.35,0.42,0.61,0.73,2.3,Above,0.51,,590,,,,,,,,0,0.1,0.4,0.06,0.61,0.64,2
+123,Kindezi,Kindezi West,2018,Middle,,,,,,,,,,94,0.88,0.03,0.02,0.05,,0.01,,,,,,,,2
+123,Kindezi,Kindezi West,2018,Elementary,,,,,,,,,,295,0.91,0.04,0.02,0.03,,,,,,,,,,2
+123,Kindezi,Kindezi West,3 Year Avg,Elementary,75,,,0.68,0.72,5.5,Above,,,,,,,,,,,,,,,,,2
+123,Kindezi,Kindezi West,3 Year Avg,Middle,77.8,,,0.63,0.7,5.5,Above,,,,,,,,,,,,,,,,,2
+373,King,King Middle School,2014,Middle,65.4,,,0.59,0.61,4,Above,,,471,,,,,,,,,,,,0.85,,2
+373,King,King Middle School,2015,Middle,59.1,0.17,0.15,0.65,0.7,1.7,Above,0.47,,680,,,,,,,,,,,,0.88,0.79,2
+373,King,King Middle School,2016,Middle,57.4,0.16,0.12,0.64,0.55,5.6,Above,0.74,,635,,,,,,,,,,,,0.85,0.77,2
+373,King,King Middle School,2017,Middle,58.2,0.15,0.15,0.62,0.64,3.9,Above,0.46,,664,,,,,,,,0.03,0.16,0.73,0.28,0.84,0.8,2
+373,King,King Middle School,2018,Middle,,,,,,,,,,711,0.9,0.01,0.07,0.01,,,,,,,,,,2
+373,King,King Middle School,3 Year Avg,Middle,58.2,,,0.64,0.63,3.7,Above,,,,,,,,,,,,,,,,,2
+2564,Lin,Lin Elementary School,2014,Elementary,91.5,,,0.71,0.72,2.8,Above,,,596,,,,,,,,,,,,,,2
+2564,Lin,Lin Elementary School,2015,Elementary,93.2,0.78,0.77,0.76,0.88,7.2,Above,0.55,,641,,,,,,,,,,,,0.8,0.88,2
+2564,Lin,Lin Elementary School,2016,Elementary,98.9,0.8,0.77,0.71,0.75,10.3,Above,0.64,,632,,,,,,,,,,,,0.75,0.89,2
+2564,Lin,Lin Elementary School,2017,Elementary,97.8,0.78,0.79,0.63,0.84,9.9,Above,0.64,,633,,,,,,,,0.03,0.07,0.03,0.06,0.7,0.89,2
+2564,Lin,Lin Elementary School,2018,Elementary,,,,,,,,,,641,0.11,0.72,0.06,0.08,0.02,,,,,,,,,2
+2564,Lin,Lin Elementary School,3 Year Avg,Elementary,96.6,,,0.7,0.82,9.1,Above,,,,,,,,,,,,,,,,,2
+173,Long,Long Middle School,2014,Middle,62.8,,,0.61,0.56,2.5,Above,,,702,,,,,,,,,,,,0.86,,2
+173,Long,Long Middle School,2015,Middle,51,0.11,0.06,0.6,0.51,-4.3,Below,0.58,,659,,,,,,,,,,,,0.88,0.66,2
+173,Long,Long Middle School,2016,Middle,51.3,0.14,0.08,0.62,0.54,0.3,Average,0.49,,658,,,,,,,,,,,,0.86,0.74,2
+173,Long,Long Middle School,2017,Middle,57.2,0.15,0.11,0.58,0.65,3.7,Above,0.47,,666,,,,,,,,0.04,0.14,0.76,0.38,0.85,0.79,2
+173,Long,Long Middle School,2018,Middle,,,,,,,,,,723,0.91,,0.08,,,,,,,,,,,2
+173,Long,Long Middle School,3 Year Avg,Middle,53.1,,,0.6,0.57,-0.1,Average,,,,,,,,,,,,,,,,,2
+182,Mays,Mays High School,2014,High,54.7,,,0.54,0.54,-1.4,Below,,0.625,1562,,,,,,,,,,,,0.81,,2
+182,Mays,Mays High School,2015,High,67.4,0.24,0.09,0.74,0.56,4.3,Above,0.37,0.819,1707,,,,,,,,,,,,0.81,0.78,2
+182,Mays,Mays High School,2016,High,62.1,0.18,0.07,0.47,0.5,1.5,Above,0.27,0.773,1742,,,,,,,,,,,,0.78,0.67,2
+182,Mays,Mays High School,2017,High,62.1,0.23,0.04,0.59,0.54,-0.3,Average,0.24,0.78,1669,,,,,,,,0.02,0.12,0.59,0.22,0.8,0.75,2
+182,Mays,Mays High School,2018,High,,,,,,,,,,1534,0.96,,0.03,,,,,,,,,,,2
+182,Mays,Mays High School,3 Year Avg,High,63.8,,,0.6,0.53,1.9,Above,,,,,,,,,,,,,,,,,2
+513,Miles,Miles Elementary School,2014,Elementary,47.2,,,0.62,0.61,-10.5,Below,,,319,,,,,,,,,,,,,,2
+513,Miles,Miles Elementary School,2015,Elementary,56.2,0.16,0.13,0.64,0.5,-6.8,Below,0.49,,325,,,,,,,,,,,,0.59,0.71,2
+513,Miles,Miles Elementary School,2016,Elementary,63.4,0.14,0.14,0.62,0.65,7.4,Above,0.51,,360,,,,,,,,,,,,0.69,0.72,2
+513,Miles,Miles Elementary School,2017,Elementary,57.7,0.08,0.15,0.59,0.6,1.3,Above,0.48,,391,,,,,,,,0.03,0.12,0.75,0.32,0.66,0.67,2
+513,Miles,Miles Elementary School,2018,Elementary,,,,,,,,,,647,0.93,,0.06,0.01,,,,,,,,,,2
+513,Miles,Miles Elementary School,3 Year Avg,Elementary,59.1,,,0.61,0.59,0.6,Average,,,,,,,,,,,,,,,,,2
+1664,Morningside,Morningside Elementary School,2014,Elementary,94.1,,,0.67,0.67,3.9,Above,,,799,,,,,,,,,,,,0.74,0.93,2
+1664,Morningside,Morningside Elementary School,2015,Elementary,98.2,0.81,0.75,0.75,0.72,11.9,Above,0.69,,827,,,,,,,,,,,,0.81,0.89,2
+1664,Morningside,Morningside Elementary School,2016,Elementary,96.5,0.78,0.78,0.68,0.63,6.9,Above,0.69,,816,,,,,,,,,,,,0.79,0.89,2
+1664,Morningside,Morningside Elementary School,2017,Elementary,94.7,0.72,0.76,0.73,0.63,5.8,Above,0.7,,887,,,,,,,,0.09,0.03,0.05,0.09,0.74,0.88,2
+1664,Morningside,Morningside Elementary School,2018,Elementary,,,,,,,,,,932,0.11,0.65,0.09,0.07,0.07,,,,,,,,,2
+1664,Morningside,Morningside Elementary School,3 Year Avg,Elementary,96.4,,,0.72,0.66,8.2,Above,,,,,,,,,,,,,,,,,2
+192,North Atlanta,North Atlanta High School,2014,High,72.9,,,0.64,0.67,0.8,Average,,0.735,1596,,,,,,,,,,,,0.69,,2
+192,North Atlanta,North Atlanta High School,2015,High,76.4,0.57,0.33,0.82,0.69,-0.9,Average,0.43,0.815,1657,,,,,,,,,,,,0.65,0.75,2
+192,North Atlanta,North Atlanta High School,2016,High,78.9,0.59,0.37,0.66,0.62,0,Average,0.39,0.883,1734,,,,,,,,,,,,0.69,0.76,2
+192,North Atlanta,North Atlanta High School,2017,High,81.7,0.65,0.36,0.7,0.65,0.4,Average,0.4,0.949,1833,,,,,,,,0.05,0.08,0.16,0.12,0.71,0.82,2
+192,North Atlanta,North Atlanta High School,2018,High,,,,,,,,,,1889,0.38,0.33,0.23,0.03,0.02,,,,,,,,,2
+192,North Atlanta,North Atlanta High School,3 Year Avg,High,79,,,0.72,0.65,-0.2,Average,,,,,,,,,,,,,,,,,2
+101,Parkside,Parkside Elementary School,2014,Elementary,59.9,,,0.63,0.78,-2.3,Below,,,637,,,,,,,,,,,,0.65,0.79,2
+101,Parkside,Parkside Elementary School,2015,Elementary,69.3,0.27,0.29,0.74,0.79,7.5,Above,0.62,,584,,,,,,,,,,,,0.69,0.75,2
+101,Parkside,Parkside Elementary School,2016,Elementary,68.7,0.25,0.22,0.73,0.66,8.6,Above,0.63,,571,,,,,,,,,,,,0.67,0.77,2
+101,Parkside,Parkside Elementary School,2017,Elementary,54.8,0.26,0.21,0.5,0.53,-9.7,Below,0.56,,579,,,,,,,,0.04,0.08,0.53,0.25,0.53,0.69,2
+101,Parkside,Parkside Elementary School,2018,Elementary,,,,,,,,,,629,0.65,0.22,0.07,0.05,0.01,,,,,,,,,2
+101,Parkside,Parkside Elementary School,3 Year Avg,Elementary,64.2,,,0.65,0.65,2.1,Above,,,,,,,,,,,,,,,,,2
+296,Perkerson,Perkerson Elementary School,2014,Elementary,41.5,,,0.56,0.5,-17.9,Below,,,533,,,,,,,,,,,,0.69,0.68,2
+296,Perkerson,Perkerson Elementary School,2015,Elementary,48.1,0.08,0.11,0.64,0.63,-10.5,Below,0.47,,589,,,,,,,,,,,,0.67,0.69,2
+296,Perkerson,Perkerson Elementary School,2016,Elementary,57.6,0.09,0.09,0.65,0.63,5.5,Above,0.46,,542,,,,,,,,,,,,0.65,0.64,2
+296,Perkerson,Perkerson Elementary School,2017,Elementary,56.9,0.09,0.13,0.54,0.74,-0.2,Average,0.51,,497,,,,,,,,0.02,0.1,0.74,0.28,0.65,0.7,2
+296,Perkerson,Perkerson Elementary School,2018,Elementary,,,,,,,,,,455,0.95,,0.04,0.01,,,,,,,,,,2
+296,Perkerson,Perkerson Elementary School,3 Year Avg,Elementary,54.2,,,0.61,0.66,-1.7,Below,,,,,,,,,,,,,,,,,2
+3065,Peyton,Peyton Forest Elementary School,2014,Elementary,48.6,,,0.62,0.47,-13.7,Below,,,464,,,,,,,,,,,,0.7,0.81,2
+3065,Peyton,Peyton Forest Elementary School,2015,Elementary,56.2,0.17,0.16,0.7,0.72,-1.9,Below,0.52,,461,,,,,,,,,,,,0.75,0.66,2
+3065,Peyton,Peyton Forest Elementary School,2016,Elementary,50.5,0.12,0.11,0.55,0.48,-3.7,Below,0.5,,451,,,,,,,,,,,,0.8,0.74,2
+3065,Peyton,Peyton Forest Elementary School,2017,Elementary,60.4,0.15,0.21,0.55,0.65,0.7,Average,0.64,,524,,,,,,,,0.08,0.11,0.68,0.37,0.64,0.64,2
+3065,Peyton,Peyton Forest Elementary School,2018,Elementary,,,,,,,,,,527,0.89,0.01,0.08,0.01,,,,,,,,,,2
+3065,Peyton,Peyton Forest Elementary School,3 Year Avg,Elementary,55.7,,,0.59,0.62,-1.6,Below,,,,,,,,,,,,,,,,,2
+288,Price,Price Middle School,2014,Middle,58.8,,,0.59,0.61,1,Average,,,344,,,,,,,,,,,,0.86,,2
+288,Price,Price Middle School,2015,Middle,54.3,0.12,0.08,0.59,0.59,-1.4,Below,0.53,,311,,,,,,,,,,,,0.81,0.75,2
+288,Price,Price Middle School,2016,Middle,52.1,0.09,0.05,0.59,0.5,3.5,Above,0.43,,309,,,,,,,,,,,,0.77,0.61,2
+288,Price,Price Middle School,2017,Middle,51.9,0.07,0.04,0.61,0.52,-1.1,Below,0.37,,304,,,,,,,,0,0.14,0.76,0.37,0.78,0.71,2
+288,Price,Price Middle School,2018,Middle,,,,,,,,,,326,0.95,,0.04,0.01,,,,,,,,,,2
+288,Price,Price Middle School,3 Year Avg,Middle,52.7,,,0.6,0.53,0.3,Average,,,,,,,,,,,,,,,,,2
+1066,Rivers,Rivers Elementary School,2014,Elementary,78.7,,,0.61,0.76,-0.2,Average,,,667,,,,,,,,,,,,0.74,0.93,2
+1066,Rivers,Rivers Elementary School,2015,Elementary,83.1,0.57,0.53,0.75,0.64,5.4,Above,0.6,,633,,,,,,,,,,,,0.77,0.89,2
+1066,Rivers,Rivers Elementary School,2016,Elementary,77.4,0.48,0.48,0.6,0.68,-0.4,Average,0.61,,748,,,,,,,,,,,,0.81,0.9,2
+1066,Rivers,Rivers Elementary School,2017,Elementary,79.4,0.5,0.49,0.64,0.79,0.2,Average,0.57,,795,,,,,,,,0.2,0.09,0.15,0.17,0.72,0.87,2
+1066,Rivers,Rivers Elementary School,2018,Elementary,,,,,,,,,,799,0.28,0.41,0.2,0.04,0.05,0.02,,,,,,,,2
+1066,Rivers,Rivers Elementary School,3 Year Avg,Elementary,79.9,,,0.66,0.71,1.7,Above,,,,,,,,,,,,,,,,,2
+3566,Scott,Scott Elementary School,2014,Elementary,52.6,,,0.48,0.31,-6.1,Below,,,343,,,,,,,,,,,,,,2
+3566,Scott,Scott Elementary School,2015,Elementary,53.9,0.17,0.15,0.79,0.6,-5.3,Below,0.43,,331,,,,,,,,,,,,0.7,0.74,2
+3566,Scott,Scott Elementary School,2016,Elementary,47.1,0.13,0.1,0.54,0.35,-3.8,Below,0.51,,350,,,,,,,,,,,,0.65,0.63,2
+3566,Scott,Scott Elementary School,2017,Elementary,53.5,0.11,0.07,0.54,0.46,-2.8,Below,0.53,,393,,,,,,,,0.04,0.12,0.76,0.35,0.63,0.67,2
+3566,Scott,Scott Elementary School,2018,Elementary,,,,,,,,,,405,0.95,,0.05,,,,,,,,,,,2
+3566,Scott,Scott Elementary School,3 Year Avg,Elementary,51.5,,,0.61,0.46,-4,Below,,,,,,,,,,,,,,,,,2
+4066,Slater,Slater Elementary School,2014,Elementary,45.6,,,0.56,0.46,-13.5,Below,,,561,,,,,,,,,,,,0.67,0.89,2
+4066,Slater,Slater Elementary School,2015,Elementary,54.8,0.11,0.1,0.53,0.66,-4.2,Below,0.49,,556,,,,,,,,,,,,0.61,0.61,2
+4066,Slater,Slater Elementary School,2016,Elementary,54.3,0.09,0.13,0.59,0.54,-0.3,Average,0.55,,562,,,,,,,,,,,,0.64,0.66,2
+4066,Slater,Slater Elementary School,2017,Elementary,60.9,0.14,0.15,0.59,0.6,4.6,Above,0.5,,555,,,,,,,,0.02,0.08,0.74,0.45,0.64,0.66,2
+4066,Slater,Slater Elementary School,2018,Elementary,,,,,,,,,,586,0.96,,0.03,0.01,,,,,,,,,,2
+4066,Slater,Slater Elementary School,3 Year Avg,Elementary,56.6,,,0.57,0.6,0,Average,,,,,,,,,,,,,,,,,2
+1567,Smith,Smith Elementary School,2014,Elementary,85,,,0.59,0.66,-3.5,Below,,,1261,,,,,,,,,,,,0.75,0.89,2
+1567,Smith,Smith Elementary School,2015,Elementary,88,0.67,0.62,0.76,0.77,3.9,Above,0.59,,1115,,,,,,,,,,,,0.69,0.79,2
+1567,Smith,Smith Elementary School,2016,Elementary,83.8,0.65,0.62,0.67,0.65,-0.2,Average,0.67,,1105,,,,,,,,,,,,0.76,0.9,2
+1567,Smith,Smith Elementary School,2017,Elementary,80.8,0.63,0.58,0.64,0.63,-3,Below,0.62,,1008,,,,,,,,0.17,0.08,0.11,0.12,0.72,0.84,2
+1567,Smith,Smith Elementary School,2018,Elementary,,,,,,,,,,972,0.19,0.48,0.21,0.06,0.07,,,,,,,,,2
+1567,Smith,Smith Elementary School,3 Year Avg,Elementary,84.2,,,0.69,0.68,0.2,Average,,,,,,,,,,,,,,,,,2
+1412,South Atlanta,South Atlanta High School,2017,High,55.6,0.18,0.04,0.59,0.51,-2.4,Below,0.33,0.781,813,,,,,,,,0.03,0.15,0.66,0.29,0.74,0.79,2
+1412,South Atlanta,South Atlanta High School,2018,High,,,,,,,,,,808,0.92,0.01,0.06,,,,,,,,,,,2
+1412,South Atlanta,South Atlanta High School,3 Year Avg,High,55.6,,,0.59,0.51,-2.4,Below,,,,,,,,,,,,,,,,,2
+408,South Atlanta CAD,South Atlanta High School,2014,High,65.4,,,0.74,0.64,7.7,Above,,0.603,304,,,,,,,,,,,,,,2
+408,South Atlanta CAD,South Atlanta High School,2015,High,64.4,0.16,0.05,0.6,0.66,1.2,Above,0.43,0.778,302,,,,,,,,,,,,0.75,0.6,2
+408,South Atlanta CAD,South Atlanta High School,2016,High,65.5,0.15,0.08,0.62,0.66,10.1,Above,0.27,0.711,299,,,,,,,,,,,,0.69,0.72,2
+108,South Atlanta Health,South Atlanta High School,2014,High,71.3,,,0.73,0.59,12.2,Above,,0.765,311,,,,,,,,,,,,,,2
+108,South Atlanta Health,South Atlanta High School,2015,High,76,0.21,0.11,0.72,0.78,13,Above,0.49,0.879,300,,,,,,,,,,,,0.79,0.68,2
+108,South Atlanta Health,South Atlanta High School,2016,High,71,0.16,0.11,0.7,0.62,12.2,Above,0.29,0.765,276,,,,,,,,,,,,0.8,0.8,2
+208,South Atlanta Law,South Atlanta High School,2014,High,71.7,,,0.67,0.68,16.1,Above,,0.71,303,,,,,,,,,,,,0.88,,2
+208,South Atlanta Law,South Atlanta High School,2015,High,71.1,0.18,0.09,0.81,0.55,10.2,Above,0.43,0.657,294,,,,,,,,,,,,0.79,0.63,2
+208,South Atlanta Law,South Atlanta High School,2016,High,67.6,0.14,0.1,0.64,0.6,11.9,Above,0.26,0.738,274,,,,,,,,,,,,0.77,0.73,2
+116,Springdale,Springdale Park Elementary School,2014,Elementary,91.4,,,0.59,0.45,2.7,Above,,,639,,,,,,,,,,,,0.67,0.94,2
+116,Springdale,Springdale Park Elementary School,2015,Elementary,94.5,0.79,0.72,0.8,0.73,7.8,Above,0.63,,672,,,,,,,,,,,,0.71,0.93,2
+116,Springdale,Springdale Park Elementary School,2016,Elementary,95.6,0.79,0.76,0.78,0.65,8.9,Above,0.66,,661,,,,,,,,,,,,0.77,0.9,2
+116,Springdale,Springdale Park Elementary School,2017,Elementary,95.8,0.78,0.82,0.65,0.75,8.9,Above,0.62,,677,,,,,,,,0.07,0.06,0.07,0.11,0.63,0.79,2
+116,Springdale,Springdale Park Elementary School,2018,Elementary,,,,,,,,,,704,0.13,0.64,0.08,0.09,0.04,0.01,,,,,,,,2
+116,Springdale,Springdale Park Elementary School,3 Year Avg,Elementary,95.3,,,0.74,0.71,8.5,Above,,,,,,,,,,,,,,,,,2
+3067,Sutton,Sutton Middle School,2014,Middle,78.7,,,0.69,0.67,-2.6,Below,,,1501,,,,,,,,,,,,0.86,,2
+3067,Sutton,Sutton Middle School,2015,Middle,79.1,0.56,0.47,0.73,0.66,2.2,Above,0.51,,1448,,,,,,,,,,,,0.84,0.83,2
+3067,Sutton,Sutton Middle School,2016,Middle,74.2,0.57,0.46,0.71,0.57,-2.7,Below,0.57,,1489,,,,,,,,,,,,0.8,0.79,2
+3067,Sutton,Sutton Middle School,2017,Middle,76.6,0.58,0.49,0.67,0.63,0,Average,0.54,,1530,,,,,,,,0.09,0.11,0.19,0.12,0.77,0.78,2
+3067,Sutton,Sutton Middle School,2018,Middle,,,,,,,,,,1552,0.3,0.37,0.27,0.03,0.03,0.01,,,,,,,,2
+3067,Sutton,Sutton Middle School,3 Year Avg,Middle,76.6,,,0.7,0.62,-0.2,Average,,,,,,,,,,,,,,,,,2
+188,Sylvan,Sylvan Middle School,2014,Middle,52.7,,,0.54,0.47,-6.3,Below,,,583,,,,,,,,,,,,0.85,,2
+188,Sylvan,Sylvan Middle School,2015,Middle,60.2,0.12,0.06,0.7,0.55,5,Above,0.46,,563,,,,,,,,,,,,0.86,0.73,2
+188,Sylvan,Sylvan Middle School,2016,Middle,57.8,0.12,0.08,0.61,0.53,8.7,Above,0.55,,570,,,,,,,,,,,,0.82,0.71,2
+188,Sylvan,Sylvan Middle School,2017,Middle,58.8,0.12,0.09,0.64,0.57,6.6,Above,0.59,,618,,,,,,,,0,0.15,0.81,0.34,0.81,0.78,2
+188,Sylvan,Sylvan Middle School,2018,Middle,,,,,,,,,,585,0.96,,0.03,0.01,,,,,,,,,,2
+188,Sylvan,Sylvan Middle School,3 Year Avg,Middle,58.9,,,0.65,0.55,6.8,Above,,,,,,,,,,,,,,,,,2
+1409,Therrell,Therrell High School,2016,High,62.1,0.17,0.1,0.52,0.6,3.3,Above,0.42,0.668,842,,,,,,,,,,,,0.77,0.73,2
+1409,Therrell,Therrell High School,2017,High,68.2,0.28,0.06,0.63,0.63,6.4,Above,0.32,0.796,854,,,,,,,,0.02,0.14,0.57,0.34,0.78,0.84,2
+1409,Therrell,Therrell High School,2018,High,,,,,,,,,,810,0.98,,0.02,,,,,,,,,,,2
+1409,Therrell,Therrell High School,3 Year Avg,High,65.1,,,0.58,0.62,4.9,Above,,,,,,,,,,,,,,,,,2
+708,Therrell Health,Therrell High School,2014,High,64.8,,,0.69,0.6,9.1,Above,,0.547,250,,,,,,,,,,,,0.78,,2
+708,Therrell Health,Therrell High School,2015,High,62.7,0.21,0.19,0.74,0.65,4.2,Above,0.36,0.671,257,,,,,,,,,,,,0.79,0.61,2
+508,Therrell Law,Therrell High School,2014,High,53.6,,,0.75,0.63,0.4,Average,,0.52,265,,,,,,,,,,,,0.77,,2
+508,Therrell Law,Therrell High School,2015,High,65.1,0.21,0.09,0.81,0.6,7.9,Above,0.36,0.686,270,,,,,,,,,,,,0.82,0.7,2
+608,Therrell STEMS,Therrell High School,2014,High,64.8,,,0.66,0.66,8.3,Above,,0.765,342,,,,,,,,,,,,,,2
+608,Therrell STEMS,Therrell High School,2015,High,73.1,0.25,0.14,0.8,0.56,10.5,Above,0.46,0.795,311,,,,,,,,,,,,0.82,0.74,2
+5067,Thomasville,Thomasville Heights Elementary School,2014,Elementary,41.9,,,0.74,0.47,-15.7,Below,,,358,,,,,,,,,,,,0.72,0.78,2
+5067,Thomasville,Thomasville Heights Elementary School,2015,Elementary,41.8,0.05,0.05,0.52,0.62,-14.5,Below,0.47,,366,,,,,,,,,,,,0.82,0.79,2
+5067,Thomasville,Thomasville Heights Elementary School,2016,Elementary,40.3,0.03,0.03,0.54,0.47,-10.2,Below,0.39,,418,,,,,,,,,,,,0.75,0.75,2
+5067,Thomasville,Thomasville Heights Elementary School,2017,Elementary,59.8,0.06,0.1,0.64,0.78,5.4,Above,0.34,,420,,,,,,,,0,0.07,0.83,0.25,0.8,0.68,2
+5067,Thomasville,Thomasville Heights Elementary School,2018,Elementary,,,,,,,,,,495,0.97,,0.01,0.01,,,,,,,,,,2
+5067,Thomasville,Thomasville Heights Elementary School,3 Year Avg,Elementary,47.3,,,0.57,0.62,-6.4,Below,,,,,,,,,,,,,,,,,2
+5567,Toomer,Toomer Elementary School,2014,Elementary,51.9,,,0.58,0.58,-8,Below,,,379,,,,,,,,,,,,0.49,0.68,2
+5567,Toomer,Toomer Elementary School,2015,Elementary,62.7,0.22,0.22,0.79,0.59,0.8,Average,0.45,,343,,,,,,,,,,,,0.61,0.64,2
+5567,Toomer,Toomer Elementary School,2016,Elementary,58.3,0.32,0.25,0.58,0.48,-4.3,Below,0.53,,335,,,,,,,,,,,,0.71,0.75,2
+5567,Toomer,Toomer Elementary School,2017,Elementary,58.6,0.32,0.22,0.59,0.45,-6.1,Below,0.58,,351,,,,,,,,0,0.16,0.51,0.2,0.71,0.84,2
+5567,Toomer,Toomer Elementary School,2018,Elementary,,,,,,,,,,504,0.78,0.17,0.02,0.02,0.01,,,,,,,,,2
+5567,Toomer,Toomer Elementary School,3 Year Avg,Elementary,59.8,,,0.64,0.5,-3.2,Below,,,,,,,,,,,,,,,,,2
+1068,Towns,Towns Elementary School,2014,Elementary,49.3,,,0.48,0.45,-8.8,Below,,,339,,,,,,,,,,,,0.69,0.66,2
+1068,Towns,Towns Elementary School,2015,Elementary,52.3,0.13,0.13,0.63,0.58,-5.9,Below,0.47,,339,,,,,,,,,,,,0.7,0.74,2
+1068,Towns,Towns Elementary School,2016,Elementary,55.3,0.05,0.1,0.51,0.57,6.1,Above,0.58,,345,,,,,,,,,,,,0.75,0.72,2
+1068,Towns,Towns Elementary School,2017,Elementary,68.3,0.16,0.21,0.65,0.78,13.5,Above,0.44,,382,,,,,,,,0.17,0.07,0.77,0.42,0.72,0.75,2
+1068,Towns,Towns Elementary School,2018,Elementary,,,,,,,,,,348,0.88,,0.1,0.01,,,,,,,,,,2
+1068,Towns,Towns Elementary School,3 Year Avg,Elementary,58.6,,,0.6,0.64,4.5,Above,,,,,,,,,,,,,,,,,2
+2057,Connally,Tuskegee Airmen Global Academy,2014,Elementary,39.8,,,0.59,0.46,-16.5,Below,,,412,,,,,,,,,,,,0.72,0.74,2
+2057,Connally,Tuskegee Airmen Global Academy,2015,Elementary,51.8,0.07,0.12,0.68,0.6,-4.4,Below,0.47,,384,,,,,,,,,,,,0.75,0.66,2
+2057,Connally,Tuskegee Airmen Global Academy,2016,Elementary,51.7,0.08,0.13,0.62,0.51,-1.3,Below,0.52,,371,,,,,,,,,,,,0.7,0.75,2
+1416,Tuskegee,Tuskegee Airmen Global Academy,2017,Elementary,60.4,0.15,0.16,0.58,0.65,1.3,Average,0.49,,703,,,,,,,,0,0.07,0.7,0.44,0.72,0.72,2
+1416,Tuskegee,Tuskegee Airmen Global Academy,2018,Elementary,,,,,,,,,,666,0.99,,,,,,,,,,,,,2
+1416,Tuskegee,Tuskegee Airmen Global Academy,3 Year Avg,Elementary,60.4,,,0.58,0.65,1.3,Average,,,,,,,,,,,,,,,,,2
+2568,Venetian,Tuskegee Airmen Global Academy,2014,Elementary,76.8,,,0.71,0.69,18.1,Above,,,376,,,,,,,,,,,,0.76,0.82,2
+2568,Venetian,Tuskegee Airmen Global Academy,2015,Elementary,53.5,0.19,0.17,0.61,0.59,-3.5,Below,0.46,,360,,,,,,,,,,,,0.71,0.71,2
+2568,Venetian,Tuskegee Airmen Global Academy,2016,Elementary,59.2,0.15,0.13,0.66,0.66,9.9,Above,0.51,,338,,,,,,,,,,,,0.72,0.73,2
+604,Usher,Usher Elementary School,2014,Elementary,57.4,,,0.67,0.69,-1.4,Average,,,403,,,,,,,,,,,,0.67,0.79,2
+604,Usher,Usher Elementary School,2015,Elementary,68.9,0.14,0.2,0.81,0.8,11.1,Above,0.46,,436,,,,,,,,,,,,0.77,0.75,2
+604,Usher,Usher Elementary School,2016,Elementary,61.8,0.11,0.13,0.7,0.61,12.8,Above,0.47,,412,,,,,,,,,,,,0.77,0.77,2
+604,Usher,Usher Elementary School,2017,Elementary,64,0.12,0.19,0.68,0.63,7.8,Above,0.4,,491,,,,,,,,0.01,0.12,0.75,0.34,0.65,0.73,2
+604,Usher,Usher Elementary School,2018,Elementary,,,,,,,,,,440,0.96,,0.03,0.01,,,,,,,,,,2
+604,Usher,Usher Elementary School,3 Year Avg,Elementary,64.9,,,0.73,0.68,10.6,Above,,,,,,,,,,,,,,,,,2
+315,Washington,Washington High School,2015,High,68.5,0.2,0.18,0.73,0.63,8.4,Above,0.36,0.768,835,,,,,,,,,,,,0.83,0.67,2
+315,Washington,Washington High School,2016,High,53.5,0.1,0.11,0.42,0.66,-1,Average,0.25,0.698,843,,,,,,,,,,,,0.79,0.63,2
+315,Washington,Washington High School,2017,High,68.4,0.19,0.12,0.6,0.72,11.8,Above,0.31,0.676,818,,,,,,,,0.01,0.18,0.7,0.34,0.78,0.75,2
+315,Washington,Washington High School,2018,High,,,,,,,,,,722,0.97,,0.02,0.01,,,,,,,,,,2
+315,Washington,Washington High School,3 Year Avg,High,63.4,,,0.59,0.67,6.4,Above,,,,,,,,,,,,,,,,,2
+112,Washington Banking,Washington High School,2014,High,54.1,,,0.67,0.66,2.4,Above,,0.684,296,,,,,,,,,,,,0.88,,2
+113,Washington Early,Washington High School,2014,High,75.5,,,0.72,0.83,11.6,Above,,0.788,246,,,,,,,,,,,,,,2
+114,Washington Health,Washington High School,2014,High,55.2,,,0.76,0.71,3.6,Above,,0.603,348,,,,,,,,,,,,0.8,,2
+1208,Wesley,Wesley International Academy,2014,Elementary,76.1,,,0.61,0.63,-1.1,Average,,,546,,,,,,,,,,,,,,2
+1208,Wesley,Wesley International Academy,2014,Middle,66.7,,,0.64,0.7,-1.1,Average,,,162,,,,,,,,,,,,,,2
+1208,Wesley,Wesley International Academy,2015,Middle,67.7,0.47,0.37,0.7,0.6,-4.6,Below,1,,200,,,,,,,,,,,,0.88,0.85,2
+1208,Wesley,Wesley International Academy,2015,Elementary,72.8,0.46,0.35,0.75,0.64,-4.6,Below,0.59,,572,,,,,,,,,,,,0.64,0.71,2
+1208,Wesley,Wesley International Academy,2016,Middle,70.5,0.51,0.37,0.62,0.58,-0.1,Average,0.94,,249,,,,,,,,,,,,0.82,0.8,2
+1208,Wesley,Wesley International Academy,2016,Elementary,69.6,0.48,0.37,0.57,0.53,-0.1,Average,0.64,,532,,,,,,,,,,,,0.72,0.72,2
+1208,Wesley,Wesley International Academy,2017,Elementary,68.1,0.46,0.41,0.53,0.63,-7.8,Below,0.55,,527,,,,,,,,0.01,0.11,0.24,0.03,0.65,0.7,2
+1208,Wesley,Wesley International Academy,2017,Middle,61.6,0.36,0.29,0.52,0.57,-7.8,Below,0.96,,256,,,,,,,,0.01,0.11,0.24,0.03,0.73,0.73,2
+1208,Wesley,Wesley International Academy,2018,Middle,,,,,,,,,,259,0.78,0.1,0.05,0.06,0.01,,,,,,,,,2
+1208,Wesley,Wesley International Academy,2018,Elementary,,,,,,,,,,535,0.71,0.16,0.06,0.06,0.01,,,,,,,,,2
+1208,Wesley,Wesley International Academy,3 Year Avg,Middle,66.6,,,0.6,0.58,-4.2,Below,,,,,,,,,,,,,,,,,2
+1208,Wesley,Wesley International Academy,3 Year Avg,Elementary,70.1,,,0.63,0.6,-4.2,Below,,,,,,,,,,,,,,,,,2
+2569,West Manor,West Manor Elementary School,2014,Elementary,85.5,,,0.69,0.65,10.6,Above,,,302,,,,,,,,,,,,0.66,0.89,2
+2569,West Manor,West Manor Elementary School,2015,Elementary,85.2,0.43,0.38,0.73,0.76,13.6,Above,0.7,,275,,,,,,,,,,,,0.72,0.7,2
+2569,West Manor,West Manor Elementary School,2016,Elementary,82.1,0.39,0.37,0.65,0.68,10.1,Above,0.68,,253,,,,,,,,,,,,0.74,0.78,2
+2569,West Manor,West Manor Elementary School,2017,Elementary,83.5,0.48,0.32,0.72,0.66,12.3,Above,0.64,,269,,,,,,,,0.13,0.07,0.5,0.17,0.7,0.72,2
+2569,West Manor,West Manor Elementary School,2018,Elementary,,,,,,,,,,294,0.86,,0.12,0.02,,,,,,,,,,2
+2569,West Manor,West Manor Elementary School,3 Year Avg,Elementary,83.6,,,0.7,0.7,12,Above,,,,,,,,,,,,,,,,,2
+314,Westside,Westside Atlanta Charter School,2014,Elementary,,,,,,,,,,122,,,,,,,,,,,,,,2
+314,Westside,Westside Atlanta Charter School,2015,Elementary,,0.35,0.35,,,,,0.63,,162,,,,,,,,,,,,0.55,0.62,2
+314,Westside,Westside Atlanta Charter School,2016,Elementary,61.1,0.41,0.37,0.5,0.14,-14.3,Below,0.57,,205,,,,,,,,,,,,0.65,0.78,2
+314,Westside,Westside Atlanta Charter School,2017,Elementary,70.6,0.42,0.41,0.6,0.69,-6.3,Below,0.55,,242,,,,,,,,0.02,0.09,0.24,0.03,0.72,0.8,2
+314,Westside,Westside Atlanta Charter School,2018,Middle,,,,,,,,,,31,0.61,0.26,0.06,0.06,,,,,,,,,,2
+314,Westside,Westside Atlanta Charter School,2018,Elementary,,,,,,,,,,245,0.5,0.4,0.04,0.04,0.02,,,,,,,,,2
+314,Westside,Westside Atlanta Charter School,3 Year Avg,Middle,,,,,,-10.3,Below,,,,,,,,,,,,,,,,,2
+314,Westside,Westside Atlanta Charter School,3 Year Avg,Elementary,65.8,,,0.56,0.5,-10.3,Below,,,,,,,,,,,,,,,,,2
+713,Grove Park,Woodson Park Academy,2014,Elementary,43.1,,,0.54,0.43,-16.4,Below,,,322,,,,,,,,,,,,0.5,0.64,2
+713,Grove Park,Woodson Park Academy,2015,Elementary,47.7,0.08,0.09,0.61,0.64,-10.6,Below,0.57,,285,,,,,,,,,,,,0.67,0.76,2
+713,Grove Park,Woodson Park Academy,2016,Elementary,51,0.05,0.13,0.54,0.59,-0.5,Average,0.52,,275,,,,,,,,,,,,0.66,0.77,2
+613,Woodson,Woodson Park Academy,2014,Elementary,83.2,,,,,2.9,Above,,,366,,,,,,,,,,,,,,2
+613,Woodson,Woodson Park Academy,2015,Elementary,,,,,,,,0.47,,305,,,,,,,,,,,,,,2
+613,Woodson,Woodson Park Academy,2016,Elementary,,,,,,,,0.4,,362,,,,,,,,,,,,,,2
+1415,Woodson Park,Woodson Park Academy,2017,Elementary,52,0.08,0.09,0.54,0.59,-3.4,Below,0.45,,601,,,,,,,,0.02,0.07,0.76,0.45,0.68,0.76,2
+1415,Woodson Park,Woodson Park Academy,2018,Elementary,,,,,,,,,,622,0.95,,0.04,0.01,,,,,,,,,,2
+1415,Woodson Park,Woodson Park Academy,3 Year Avg,Elementary,52,,,0.54,0.59,-3.4,Below,,,,,,,,,,,,,,,,,2
+282,Young,Young Middle School,2014,Middle,53.7,,,0.54,0.56,-6.2,Below,,,1047,,,,,,,,,,,,0.86,,2
+282,Young,Young Middle School,2015,Middle,55.9,0.18,0.13,0.63,0.55,-0.9,Average,0.44,,981,,,,,,,,,,,,0.82,0.66,2
+282,Young,Young Middle School,2016,Middle,50.2,0.17,0.1,0.64,0.42,-2.9,Below,0.58,,916,,,,,,,,,,,,0.83,0.63,2
+282,Young,Young Middle School,2017,Middle,53.7,0.15,0.13,0.55,0.58,-1.3,Below,0.49,,818,,,,,,,,0.04,0.16,0.71,0.33,0.84,0.73,2
+282,Young,Young Middle School,2018,Middle,,,,,,,,,,832,0.93,,0.06,0.01,,,,,,,,,,2
+282,Young,Young Middle School,3 Year Avg,Middle,53.2,,,0.61,0.52,-1.7,Below,,,,,,,,,,,,,,,,,2
