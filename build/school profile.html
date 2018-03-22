@@ -1,1 +1,771 @@
 
+<head>
+    <title>School Profile</title>
+	
+	<!-- Load c3.css -->
+	<link href="https://apsinsights.org/wp-content/uploads/2018/03/c3.min_.css" rel="stylesheet">
+
+	<!-- Load d3.js and c3.js -->
+	<script src="https://apsinsights.org/wp-content/uploads/2018/03/d3.min_.js" charset="utf-8"></script>
+	<script src="https://apsinsights.org/wp-content/uploads/2018/03/c3.min_.js"></script>
+	
+	<!-- Load jquery -->
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	
+	<!-- Load select2 -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/css/select2.min.css" rel="stylesheet" />
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/select2/4.0.6-rc.0/js/select2.min.js"></script> 	
+	
+	<!-- Load chosen -->
+	<script src="https://apsinsights.org/wp-content/uploads/2018/03/chosen.jquery.min_.js" charset="utf-8"></script>
+	<script src="https://apsinsights.org/wp-content/uploads/2018/03/chosen.proto_.min_.js"></script>
+	<link href="https://apsinsights.org/wp-content/uploads/2018/03/chosen.min_.css" rel="stylesheet">
+	
+	<!-- Load w3 css -->
+	<link rel="stylesheet" href="https://apsinsights.org/wp-content/uploads/2018/03/custom_w3.css">
+	<!-- <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> -->
+	
+	<!-- Load icons -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<!-- Load page css -->
+	<link rel="stylesheet" href="school profile git.css">
+	
+	<style>
+	
+	.entry-title {
+			display: none;
+	}
+
+	.content-left-wrap {
+		padding-top: 0px;
+	}
+
+	.content {
+		max-width:750px;
+		font-family: Verdana,sans-serif !important;
+		/*font-size: 14px !important;*/
+		color: black !important;
+		line-height: 1.5 !important;
+		-webkit-print-color-adjust: exact;
+	}
+	
+	@media (max-device-width:768px) {
+		.content {
+			cursor: pointer;
+		}
+	}
+
+       .w3-padding-small {
+               padding-left: 0px !important;
+       }
+
+       .iconColumn{
+              float: left;
+              width: 33.33%;
+       }
+       .iconRow:after{
+             content: "";
+             display: table;
+             clear: both;
+       }
+	
+	#levelFilter{
+		font-size: 12px;
+		font-family: Verdana,sans-serif;
+		color: #444444;
+		line-height: 1.5;
+		padding: 2px;
+		border-radius: 5px;
+		box-shadow: 0px 0px 6px orange;
+		background:-webkit-gradient(linear,left top,left bottom,color-stop(20%,#fff),color-stop(50%,#f6f6f6),color-stop(52%,#eee),to(#f4f4f4)); /*copied from chosen css*/
+	}
+	
+	/*********button css***********/
+	
+	.buttons {
+		background-color: white; /* Blue */
+		color: #95aec9;
+                padding-left: 4px !important;
+                padding-right: 4px !important;
+                padding-top: 0px !important;
+                padding-bottom: 0px !important;
+                margin-top: 0px !important;
+		border: 2px solid white;
+		font-size:75%;
+		border-radius: 3px;
+		/*font-weight: bold;*/
+		-webkit-transition-duration: 0.4s; /* Safari */
+		transition-duration: 0.4s;
+	}
+	
+	.buttons:hover {
+		/*border: 2px solid gray; */
+		background-color: Gainsboro !important;
+                padding-left: 4px !important;
+                padding-right: 4px !important;
+                padding-top: 0px !important;
+                padding-bottom: 0px !important;
+                margin-top: 0px !important;
+		border: 2px solid white !important;
+		/*color: black;*/
+	}
+	.buttons:selection {
+		border: 2px solid white !important;
+		background-color: white !important;
+		/*color: black;*/
+	}
+	
+	/*removes light blue border on selected button in chrome*/
+	.buttons:focus {
+		outline:0;
+		border: 2px solid white !important;
+		background-color: white !important;
+	}
+	
+	/*vertical lines between buttons*/
+	hr {
+		  background:gray;
+		  border:0;
+		  margin:0;
+		  vertical-align:middle;
+		  color:#000;
+		  display:inline-block;
+		  height:15px;
+		  width:1px;
+	}
+	
+	hr.title {
+		margin-left:0px;
+		height:2px;
+		width:90px;
+		background: #0083A9;
+	}
+	
+	hr.title2 {
+		margin-left:0px;
+		height:2px;
+		width:90px;
+		background: #0083A9;
+	}
+	
+	hr.content {
+		margin-top:5px;
+		margin-left:0px;
+		margin-right:0px;
+		height:2px;
+		width:100%;
+		background: #0083A9;
+	}
+
+	
+	/*********graph css***********/
+	
+	/*data labels*/
+	.c3-text {
+		font-size: 120%;
+	}
+	
+	/*axis labels*/
+	g.c3-axis.c3-axis-x {
+		font-size: 110%;
+	}
+	
+	/*makes axis white
+	
+	#ccrpiGraph path.domain {
+    stroke: #fff !important; 
+	}
+	*/
+	
+	/*makes ticks white*/
+	g.c3-axis.c3-axis-x line {
+		stroke: #fff !important; 
+	}
+
+
+	/*#ccrpiGraph > svg > g:nth-child(2) > g.c3-axis.c3-axis-x > g:nth-child(3) > line
+	
+	#ccrpiGraph > svg > g:nth-child(2) > g.c3-axis.c3-axis-x > g:nth-child(2) > line
+	
+	*/
+	
+	hr.space10 {
+		height:10px;
+		visibility:hidden;
+	}
+
+hr.space300 {
+		height:200px;
+		visibility:hidden;
+	}
+	
+	hr.space4 {
+		height:4px;
+		visibility:hidden;
+	}
+	
+	.icon:hover {
+		color: white !important;
+                background-color: #4E79A7;
+                transition:.8s;
+	}
+
+	.loader {
+		position: absolute;
+		left: 40%;
+		z-index: 1;
+		margin-top:50px;
+		border: 8px solid #D3D3D3;
+		border-radius: 50%;
+		border-top: 8px solid #3498db;
+		width: 50px;
+		height: 50px;
+		-webkit-animation: spin 2s linear infinite; /* Safari */
+		animation: spin 2s linear infinite;
+	}
+
+	/* Safari */
+	@-webkit-keyframes spin {
+	  0% { -webkit-transform: rotate(0deg); }
+	  100% { -webkit-transform: rotate(360deg); }
+	}
+
+	@keyframes spin {
+	  0% { transform: rotate(0deg); }
+	  100% { transform: rotate(360deg); }
+}	
+
+	.select2-results {
+		font-size:12px !important;
+		line-height: 1.2 !important;
+                text-align: left !important;
+                font-family: Verdana,sans-serif !important;
+	}
+	
+	.select2-container .select2-selection--single {
+		font-family: Verdana,sans-serif;
+		font-size: 12px;
+		color: #444444;
+		/*height: 24px;*/
+		border-radius: 5px;
+		background:-webkit-gradient(linear,left top,left bottom,color-stop(20%,#fff),color-stop(50%,#f6f6f6),color-stop(52%,#eee),to(#f4f4f4)); /*copied from chosen css*/
+		}
+
+	.select2-results__option {
+		padding: 4px !important;
+		font-family: Verdana,sans-serif;
+		font-size: 12px;
+	}
+	
+	@media (max-device-width:768px) {
+		.select2-results__option {
+			padding: 6px !important;
+			font-family: Verdana,sans-serif;
+			font-size: 16px;
+		}
+	}
+
+	option {
+		padding: 6px !important;
+		font-family: Verdana,sans-serif;
+		font-size: 13px;
+	}
+	
+	/*
+	.c3 svg {
+		font-family: Verdana,sans-serif;
+		font-size: 11px;	
+	}*/
+		
+	</style>
+
+</head>
+
+<body>
+
+	<div class="content"> <!-- this div wraps entire page to set max page width in css... -->
+		
+		<div><!-- page title -->
+		<a style="margin-top: -70px; padding-bottom: 70px; display: block;" name="SchoolProfiles"></a><span style="font-size:24px; ">School Profiles</span><br>
+		<span style="font-size:12px; ">Search and compare APS schools</span>
+			
+		<!-- info button -->	
+		<span class="w3-tooltip"><img src="https://apsinsights.org/wp-content/uploads/2017/05/Info-Button.png" style="vertical-align:middle;"><div class="w3-text w3-light-gray w3-small w3-border w3-round-large" style="position:absolute; top:25px; left:-180px; width:300px; z-index:1000; text-align:left; padding:4px 8px;">
+			This page contains key indicators to understand a school’s <b>student achievement</b>, <b>school climate</b>, and <b>student population</b>. Viewing multiple achievement and climate indicators helps to identify a school’s strengths and areas for improvement.
+			<br><br>
+			For more details about the data see the blue info buttons below or see the <a href="https://apsinsights.org/about/">about page</a>.
+			</div></span>
+			
+		</div>
+		<hr class="content">
+		<br>	
+		
+		<!-- School level filter -->
+		<div class="w3-container" style="padding: 8px 4px 12px 0px">
+			<span>Grade level:</span><br>
+			<select id="levelFilter" onchange="filterLevel()" >  <!--style="box-shadow: 0px 0px 8px orange;"-->
+				<option value="">Select a Grade Level</option>
+				<option value="Elementary">Elementary</option>
+				<option value="Middle">Middle</option>
+				<option value="High">High</option>
+			</select>
+		</div>
+		
+		<hr class="space300" id="levelGap">
+		
+			<div style="display:none"> <!-- hide everything after the grade level filter, but grab the html in js, then display after using the filter -->
+			<div id ="schoolFilters">
+				
+				<!-- School Filter -->
+				<div class="w3-container" style="padding-left:0px">
+					<div class="w3-half">
+						<span class="w3-padding-small">School:</span><br>
+						<div class="w3-container w3-padding-small" id="filter"></div>
+					</div>
+					
+					<div class="loader" style="visibility:hidden;"></div>
+						
+					<hr class="space300" id="schoolGap">
+
+					<!-- Comparison filter -->
+					<div class="w3-half">
+						<span class="w3-padding-small hideCompare" style="display:none">Comparison school:</span><br>
+						<div id="filter2Parent">
+							<div class="w3-container w3-padding-small" id="filter2"></div>
+						</div>
+					</div>
+					
+				</div>
+			</div>
+		
+			<div id ="postFilter">
+						
+				<hr class="content">
+				<hr class="space4">
+				<!-- School Name -->
+				<div id="schoolTitle" style="text-align:center; font-size:140%">
+				</div>				
+				
+				<hr class="space10">
+				
+				<!-- Message for schools with unique grade bands. Generated from data. -->
+				<div id="levelMessage" style="text-align:left; font-size:80%; padding-left:8px;">
+				</div>
+				
+				<!-- Icons that link to page sections -->
+				<div class="w3-padding-small iconRow">
+					<div class="iconColumn" style="text-align:center;">
+						<div class="w3-row">
+							<hr class="space10">
+							<a href="#Achievement"><i class="fa fa-graduation-cap icon" style="font-size:36px; color: #4e79a7 "></i></a>
+						</div>
+						<div class="w3-row" style="font-size:80%;">
+							<a href="#Achievement" style="text-decoration:none; color: #4e79a7">Student<br>Achievement</a>
+						</div>
+					</div>
+					<div class="iconColumn" style="text-align:center;">
+						<div class="w3-row">
+							<hr class="space10">
+							<a href="#Climate"><i class="fa fa-handshake-o icon" style="font-size:36px; color: #4e79a7" ></i></a>
+						</div>
+						<div class="w3-row" style="font-size:80%;">
+							<a href="#Climate" style="text-decoration:none; color: #4e79a7">School<br>Climate</a>
+						</div>
+					</div>
+					<div class="iconColumn" style="text-align:center; ">
+						<div class="w3-row">
+							<hr class="space10">
+							<a href="#Population"><i class="fa fa-group icon" style="font-size:36px; color: #4e79a7"></i></a>
+						</div>
+						<div class="w3-row" style="font-size:80%;">
+							<a href="#Population" style="text-decoration:none; color: #4e79a7">Student<br>Population</a>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Message for schools that are new or recent mergers -->
+				<div id="schoolMessage" style="text-align:left; font-size:80%;">
+				</div>
+				
+				<!-- Same message for comparison schools -->
+				<div id="compareMessage" style="text-align:left; font-size:80%;">
+				</div>
+				<br>
+			
+				<!-- Student Achievement Section -->
+				<div class="w3-container w3-padding-small">
+					<div class="w3-half" >
+						<a style="margin-top: -70px; padding-bottom: 70px; display: block;" name="Achievement"></a><span style="font-family: 'Segoe UI',Arial,sans-serif; font-weight:400; font-size:20px;">Student Achievement</span>
+					</div>
+					<div class="w3-half w3-small" style="padding-top:10px; text-align:right">
+						<!-- Color key and info button -->
+						<span style="white-space: pre; -webkit-print-color-adjust: exact;"><i class="fa fa-square" style="color:#51b364;"></i> Above Average   <i class="fa fa-square" style="color:#F0BD27;"></i> Average   <i class="fa fa-square" style="color:#E15759;"></i> Below Average </span>
+						<span class="w3-tooltip" ><img src="https://apsinsights.org/wp-content/uploads/2017/05/Info-Button.png" style="vertical-align:middle;"><div class="w3-text w3-light-gray w3-small w3-border w3-round-large" style="position:absolute; top:25px; left:-280px; width:300px; z-index:1000; text-align:left; padding:4px 8px;">
+							School performance is color-coded as <span style="color:#51b364;"><b>above average</b></span> if it is at least one point higher than both the district and state averages, and color-coded as <span style="color:#E15759;"><b>below average</b></span> if it is at least one point lower than those averages. Values in-between are color-coded as <span style="color:#F0BD27;"><b>average</b></span>.
+							<br><br>
+							The School Rating Comparison graph has different color-coding. The value is coded as <span style="color:#F0BD27;"><b>average</b></span> if a school's CCRPI is not statistically different from the predicted value. If a school's CCRPI is higher than predicted, color-coded as <span style="color:#51b364;"><b>above average</b></span>, etc.
+							</div></span>
+					</div>
+				</div>
+
+				<div class="section">
+				<div class="w3-container w3-padding-small">	
+				School Rating
+					
+					<span class="w3-tooltip w3-padding-small">	
+						<img src="https://apsinsights.org/wp-content/uploads/2017/05/Info-Button.png" style="vertical-align:middle;"><div class="w3-text w3-light-gray w3-small w3-border w3-round-large" style="position:absolute; top:25px; left:-80px; width:200px; z-index:1000; padding:4px 8px;">
+						CCRPI is scored on a 0-100 scale. CCRPI is mostly composed of student achievement and growth, and graduation rates for high school.
+						<br><br><a href="https://apsinsights.org/2017/11/02/2017-ccrpi-results/" style="color:navy">See here for more details.</a>
+						</div>
+					</span>
+						
+				</div >
+				
+				<div class="w3-row">
+					<div class="w3-container w3-padding-small">
+						<div id="ccrpiParagraph" class="w3-small w3-third" >
+						</div>	
+						<div class="w3-half" style="padding-left:8px;"> <!-- try setting a height here...-->
+							<div id="ccrpiMessage">
+							</div>
+							<div id="ccrpiGraph">
+							</div>
+							<div id="ccrpiButtonGroup" style="padding-left:10px;">
+							</div>  
+						</div>
+					</div>
+				</div>		
+				</div>
+				<br>
+				
+				<div class="section">
+				<div class="w3-container w3-padding-small">	
+				School Rating Comparison
+				
+					<span class="w3-tooltip w3-padding-small">	
+						<img src="https://apsinsights.org/wp-content/uploads/2017/05/Info-Button.png" style="vertical-align:middle;"><div class="w3-text w3-light-gray w3-small w3-border w3-round-large" style="position:absolute; top:25px; left:-180px; width:230px; z-index:1000; padding:4px 8px;">
+						Beat the Odds compares a school's CCRPI score to similar schools across the state, based on school characteristics such as poverty rate, percentage of English Language Learners, and students with disabilities.
+						<br><br><a href="https://gosa.georgia.gov/beating-odds-analysis" style="color:navy">See here for more details.</a>
+						</div>
+					</span>		
+				</div >
+				
+				<div class="w3-row">
+					<div class="w3-container w3-padding-small">
+						<div id="btoParagraph" class="w3-small w3-third" >
+						</div>	
+						<div class="w3-half" style="padding-left:8px;">
+							<div id="btoMessage">
+							</div>
+							<div id="btoGraph" >
+							</div>
+							<div id="btoButtonGroup" style="padding-left:10px;">
+							</div> 
+						</div>
+					</div>
+				</div>	
+				</div>
+				<br>
+			
+				<div class="section">
+				<div class="w3-container w3-padding-small">	
+				Milestones Proficiency
+
+					<span class="w3-tooltip w3-padding-small">	
+						<img src="https://apsinsights.org/wp-content/uploads/2017/05/Info-Button.png" style="vertical-align:middle;"><div class="w3-text w3-light-gray w3-small w3-border w3-round-large" style="position:absolute; top:25px; left:-120px; width:200px; z-index:1000; padding:4px 8px;">
+						Milestones is the annual achievement test in Georgia for grades 3-8 and select high school subjects.
+						<br><br><a href="https://apsinsights.org/2017/12/13/2017-milestones-results-by-subgroup/" style="color:navy">See here for more details.</a>
+						</div>
+					</span>
+				
+				<span class="w3-padding-small toggleButtons">
+					<img src="https://apsinsights.org/wp-content/uploads/2018/03/Bar-Icon-Gray.png" id="milesBar" class="milesGraphToggle buttons hideGroup1" style="display: none">
+					<img src="https://apsinsights.org/wp-content/uploads/2018/03/Line-Icon.png" id="milesLine" class="milesGraphToggle buttons hideGroup1" style="display: none">
+				</span>
+				</div>		
+				
+				<div class="w3-row">
+					<div class="w3-container w3-padding-small">
+						<div id="milesParagraph" class="w3-col w3-small w3-third" >
+						</div>			
+
+						<div class="w3-twothird">
+							<div id = "milesBarGraph">
+								<div id = "milesMessage">
+								</div>
+								<div class="w3-col w3-small hideGroup" style="width:65px; display:none; padding-left:16px; padding-top:5px;">
+									<br>English
+								</div>
+								<div id="elaMilesGraph" class="w3-rest"  style="max-width:400px;">
+								</div>	
+								<div class="w3-col w3-small hideGroup" style="width:65px; display:none; padding-left:16px; padding-top:5px;">
+									<br>Math
+								</div>
+								<div id="mathMilesGraph" class="w3-rest"  style="max-width:400px;">
+								</div>	
+							</div>
+							<div class="w3-row">
+								<div id="elaLineGraph" class="w3-half" style="display: none">
+								</div>
+								<div id="mathLineGraph" class="w3-half" style="display: none">
+								</div>
+							</div>	
+							<div class="w3-row">
+								<div id="milesButtonGroup" class="w3-col" style="padding-left:50px;"> 
+								</div>  
+							</div>	
+						</div>
+					</div>
+				</div>
+				</div>
+				<br>
+
+				<div class="section">
+				<div class="w3-container w3-padding-small">	
+				Student Growth
+
+					<span class="w3-tooltip w3-padding-small">	
+						<img src="https://apsinsights.org/wp-content/uploads/2017/05/Info-Button.png" style="vertical-align:middle;"><div class="w3-text w3-light-gray w3-small w3-border w3-round-large" style="position:absolute; top:25px; left:-120px; width:240px; z-index:1000; padding:4px 8px;">
+						Student growth percentiles measure student growth on the Milestones from one year to the next. Students in the 35th percentile of growth or better qualify as typical or high growth. For more detailed results see the link below.
+						<br><br><a href="https://apsinsights.org/2017/11/09/2017-student-growth-percentiles/" style="color:navy">See here for more details.</a>
+						</div>
+					</span>
+				</div>
+				
+				<div class="w3-row">
+					<div class="w3-container w3-padding-small">
+						<div id="sgpParagraph" class="w3-small w3-third" >
+						</div>			
+
+						<div class="w3-twothird">
+							<div id = "sgpBarGraph">
+								<div id = "sgpMessage">
+								</div>
+								<div class="w3-col w3-small hideGroup" style="width:65px; display:none; padding-left:16px; padding-top:5px;"> 
+									<br>English
+								</div>
+								<div id="elaSGPGraph" class="w3-rest" style="max-width:400px;">
+								</div>	
+								<div class="w3-col w3-small hideGroup" style="width:65px; display:none; padding-left:16px; padding-top:5px;">
+									<br>Math
+								</div>
+								<div id="mathSGPGraph" class="w3-rest"  style="max-width:400px;">
+								</div>	
+								<div id="sgpButtonGroup" class="w3-col" style="padding-left:50px;"> 
+								</div>	
+							</div>
+						</div>
+					</div>
+				</div>
+				</div>
+				<br>
+			
+			
+				<div id="highDiv" class="section">
+					<div class="w3-container w3-padding-small">	
+					Graduation Rate
+					
+						<span class="w3-tooltip w3-padding-small">	
+								<img src="https://apsinsights.org/wp-content/uploads/2017/05/Info-Button.png" style="vertical-align:middle;"><div class="w3-text w3-light-gray w3-small w3-border w3-round-large" style="position:absolute; top:25px; left:-120px; width:240px; z-index:1000; padding:4px 8px;">
+								The 4-year cohort graduation rate measures the number of graduates as a percentage of the number of students who entered the school in ninth grade or as a transfer into the school. Students who transfer out are not counted.
+								<br><br><a href="https://apsinsights.org/2017/09/27/2017-graduation-results/" style="color:navy">See here for more details.</a>
+								</div>
+						</span>
+					</div >
+					
+					<div class="w3-row">
+						<div class="w3-container w3-padding-small">
+							<div id="gradParagraph" class="w3-col w3-small w3-third" >
+							</div>	
+							<div class="w3-half" style="padding-left:8px;">
+								<div id="gradMessage">
+								</div>
+								<div id="gradGraph">
+								</div>
+								<div id="gradButtonGroup" style="padding-left:10px;">
+								</div>  
+							</div>
+						</div>
+					</div>		
+					<br>
+				</div>
+				
+				<div class="section">
+				<div class="w3-container w3-padding-small">
+				<a style="margin-top: -70px; padding-bottom: 70px; display: block;" name="Climate"></a><h4>School Climate</h4>
+				</div>
+				
+				<div class="w3-container w3-padding-small">	
+					Climate Survey
+
+					<span class="w3-tooltip w3-padding-small">	
+							<img src="https://apsinsights.org/wp-content/uploads/2017/05/Info-Button.png" style="vertical-align:middle;"><div class="w3-text w3-light-gray w3-small w3-border w3-round-large" style="position:absolute; top:25px; left:-120px; width:240px; z-index:1000; padding:4px 8px;">
+							The climate survey is administered to students in grades 3-12. For students in grades 3-5, students reporting "often" or "always" are counted as a positive response to the statements. For grades 6-12, students reporting "somewhat agree" or "strongly agree" are counted.
+							<br><br><a href="http://www.gadoe.org/Curriculum-Instruction-and-Assessment/Curriculum-and-Instruction/GSHS-II/Pages/Georgia-Student-Health-Survey-II.aspx" style="color:navy">See here for more details.</a>
+							</div>
+					</span>
+				</div>
+			
+				<div class="w3-row">
+					<div class="w3-container w3-padding-small">
+						<div id="climateParagraph" class="w3-small w3-third" >
+						</div>	
+						
+						<div class="w3-twothird">
+							<div id = "climateBarGraph">
+								<div class="w3-row" id = "climateMessage">
+								</div>
+								<div class="w3-col w3-small" style="width:100px; padding-left:16px; padding-top:5px;"> 
+									I like school.
+								</div>
+								<div id="likeSchoolGraph" class="w3-rest" style="max-width:350px;">
+								</div>	
+								<div class="w3-col w3-small" style="width:100px; padding-left:16px; padding-top:5px;">
+									I feel safe at school.
+								</div>
+								<div id="safeSchoolGraph" class="w3-rest"  style="max-width:350px;">
+								</div>	
+								<div id="climateButtonGroup" class="w3-col" style="padding-left:50px;"> 
+								</div>	
+							</div>
+						</div>
+					</div>
+				</div>	
+				</div>
+				<br>
+				
+				<div class="section">
+				<div class="w3-container w3-padding-small">	
+					Attendance
+
+				<span class="w3-tooltip w3-padding-small">	
+						<img src="https://apsinsights.org/wp-content/uploads/2017/05/Info-Button.png" style="vertical-align:middle;"><div class="w3-text w3-light-gray w3-small w3-border w3-round-large" style="position:absolute; top:25px; left:-80px; width:210px; z-index:1000; padding:4px 8px;">
+						The six days or less attendance measure is reported as part of the CCRPI.
+						<br><br><a href="http://ccrpi.gadoe.org/2017/" style="color:navy">See here for more details.</a>
+						</div>
+					</span>
+				</div>
+			
+				<div class="w3-row">
+					<div class="w3-container w3-padding-small">
+						<div id="attParagraph" class="w3-small w3-third" >
+						</div>	
+						<div class="w3-half" style="padding-left:8px;">
+							<div id="attMessage">
+							</div>
+							<div id="attGraph" class="w3-col" >
+							</div>
+							<div id="attButtonGroup" style="padding-left:10px;">
+							</div> 
+						</div>
+					</div>
+				</div>	
+				</div>
+				<br>
+			
+				<div class="section">
+				<a style="margin-top: -70px; padding-bottom: 70px; display: block;" name="Population"></a><h4 class="w3-container w3-padding-small" >Student Population</h4>
+				
+				<div class="w3-container w3-padding-small">	
+					Subgroups
+
+					<span class="w3-tooltip w3-padding-small">	
+						<img src="https://apsinsights.org/wp-content/uploads/2017/05/Info-Button.png" style="vertical-align:middle;">
+						<div class="w3-text w3-light-gray w3-small w3-border w3-round-large" style="position:absolute; top:25px; left:-80px; width:240px; z-index:1000; padding:4px 8px;">
+							Direct Certification is a school poverty measure, which includes students in households receiving state anti-poverty aid, migrants, and homeless.
+							<br><br><a href="https://gosa.georgia.gov/downloadable-data" style="color:navy">See here for more details.</a>
+						</div>
+					</span>
+				</div>
+			
+				<div class="w3-row">
+					<div class="w3-container w3-padding-small">
+						<div id="subgroupParagraph" class="w3-col w3-small w3-third" >
+						This graph shows the percentage of students in different subgroups. Direct certification is a measure of school poverty.
+						</div>
+						<div class="w3-half"> 
+							<div id="subgroupMessage">
+							</div>
+							<div id="subgroupGraph">
+							</div>
+						</div>
+					</div>
+				</div>	
+				</div>				
+				<br>	
+				
+				<div class="section">
+				<div class="w3-container w3-padding-small">	
+					Enrollment
+
+					<span class="w3-tooltip w3-padding-small">	
+						<img src="https://apsinsights.org/wp-content/uploads/2017/05/Info-Button.png" style="vertical-align:middle;">
+						<div class="w3-text w3-light-gray w3-small w3-border w3-round-large" style="position:absolute; top:25px; left:-80px; width:240px; z-index:1000; padding:4px 8px;">
+							The 2017-2018 school year is listed as 2018, consistent with the rest of this page. However, the student count for 2017-2018 is actually taken in October 2017. For more detailed enrollment information, click the link below.
+							<br><br><a href="https://apsinsights.org/2017/05/23/aps-enrollment-data-1994-2016/" style="color:navy">See here for more details.</a>
+						</div>
+					</span>
+				</div>
+			
+				<div class="w3-row">
+					<div class="w3-container w3-padding-small">
+						<div id="enrollParagraph" class="w3-small w3-third" >
+						</div>	
+						<div class="w3-half" style="padding-left:8px;">
+							<div id="enrollGraph">
+							</div>
+						</div>
+					</div>
+				</div>		
+				</div>
+				<br>
+				
+				<div class="section">
+				<div class="w3-container w3-padding-small">	
+					Race / Ethnicity
+
+					<span class="w3-tooltip w3-padding-small">	
+						<img src="https://apsinsights.org/wp-content/uploads/2017/05/Info-Button.png" style="vertical-align:middle;">
+						<div class="w3-text w3-light-gray w3-small w3-border w3-round-large" style="position:absolute; top:25px; left:-120px; width:240px; z-index:1000; padding:4px 8px;">
+							The 2017-2018 school year is listed as 2018, consistent with the rest of this page. However, the percentages for 2017-2018 is actually taken in October 2017. For more detailed enrollment information, click the link below.
+							<br><br><a href="https://apsinsights.org/2017/05/23/aps-enrollment-data-1994-2016/" style="color:navy">See here for more details.</a>
+					</div>
+					</span>
+				</div>
+			
+				<div class="w3-row">
+					<div class="w3-container w3-padding-small">
+						<div id="raceParagraph" class="w3-small w3-third" >
+						</div>
+						<div class="w3-half" style="padding-left:8px;">
+							<div id="raceMessage">
+							</div>
+							<div id="raceGraph">
+							</div>
+						</div>
+					</div>
+				</div>	
+				</div>
+				<br>	
+			
+			<div class="hidePrint w3-small" style="text-align:center">
+			<br>
+			<span style="text-decoration:none; color: #4e79a7; cursor:pointer" onclick="PrintPage()">PRINT SCHOOL PROFILE </span><hr>
+			<a href="#SchoolProfiles" style="text-decoration:none; color: #4e79a7"> BACK TO TOP</a>
+			</div>
+				
+			</div>	
+
+		</div>
+		
+	 	<div id="displayContent">
+		</div>
+	 	<div id="displayContent2">
+		</div>
+		
+	</div>
+	
+	<script src="school profile git.js"></script>
+	
+</body>
