@@ -1,9 +1,8 @@
-		
-	 /**
-	 * @name Introduction
-     * @file Function list for code to generate School Profiles on APS Insights.
-     * @author John Keltz
-	 */
+/**
+* @name Introduction
+* @file Function list for code to generate School Profiles on APS Insights.
+* @author John Keltz
+*/
 	
 	/*javascript outline
 	
